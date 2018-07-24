@@ -1,0 +1,441 @@
+rule download:
+  output:
+    expand('{{data_dir}}/001_{{database}}.{suffix}', suffix=SUFFIXES)
+  params:
+    script_dir=SCRIPT_DIR
+  log:
+    '{data_dir}/001_{database}.stdout',
+    '{data_dir}/001_{database}.stderr'
+  shell:
+    '''
+    mkdir -p {wildcards.data_dir}
+    {params.script_dir}/001_download_from_{wildcards.database}.py {wildcards.data_dir} > {log[0]} 2> {log[1]}
+    '''
+
+rule merge:
+  input:
+    expand('{{data_dir}}/001_{database}.{suffix}', database=DATABASES, suffix=SUFFIXES)
+  output:
+    '{data_dir}/002_merged.genes.conversion',
+    '{data_dir}/002_merged.genes.fasta',
+    '{data_dir}/002_merged.genomes.conversion',
+    '{data_dir}/002_merged.genomes.fasta'
+  shell:
+    '''
+    cat {wildcards.data_dir}/001_*.genes.conversion   > {output[0]}
+    cat {wildcards.data_dir}/001_*.genes.fasta        > {output[1]}
+    cat {wildcards.data_dir}/001_*.genomes.conversion > {output[2]}
+    cat {wildcards.data_dir}/001_*.genomes.fasta      > {output[3]}
+    '''
+
+rule eliminate_duplicates:
+  input:
+    '{data_dir}/002_merged.genes.conversion',
+    '{data_dir}/002_merged.genomes.conversion',
+    '{data_dir}/002_merged.genomes.fasta'
+  output:
+    '{data_dir}/003_deduplicated.genes.conversion',
+    '{data_dir}/003_deduplicated.genomes.conversion',
+    '{data_dir}/003_deduplicated.genomes.fasta'
+  params:
+    script_dir=SCRIPT_DIR
+  shell:
+    '''
+    {params.script_dir}/003_deduplicate_genomes.py {input[2]} {input[1]} {input[2]} {wildcards.data_dir}
+    '''
+
+rule annotate:
+  input:
+    '{data_dir}/003_deduplicated.genomes.fasta'
+  output:
+    '{data_dir}/004_PROKKA/genomes.gbk'
+  threads:
+    THREADS
+  shell:
+    '''
+    prokka  --force                                                           \
+            --cpus {threads}                                                  \
+            --kingdom Viruses                                                 \
+            --outdir {wildcards.data_dir}/004_PROKKA                          \
+            --prefix genomes                                                  \
+            {input[0]}
+    '''
+
+rule extract_genes:
+  input:
+    '{data_dir}/004_PROKKA/genomes.gbk'
+  output:
+    '{data_dir}/005_annotated.genes.conversion',
+    '{data_dir}/005_annotated.genes.fasta'
+  params:
+    script_dir=SCRIPT_DIR,
+    prefix='{data_dir}/005_annotated'
+  shell:
+    '''
+    {params.script_dir}/005_extract_prokka_genes.py {input[0]}                \
+                                                    {params.prefix}
+    '''
+
+rule count_hosts:
+  input:
+    '{data_dir}/003_deduplicated.genomes.conversion'
+  output:
+    '{data_dir}/004_hosts',
+    '{data_dir}/004_hosts.counts'
+  params:
+    script_dir=SCRIPT_DIR
+  shell:
+    '''
+    {params.script_dir}/004_create_host_string.py {input[0]} > {output[0]}
+    sort -k 2 {output[0]} | cut -f2 | sed "s/\\(^.\\{{7\\}}\\).*/\\1/" | uniq -c | sort -nr > {output[1]}
+    '''
+
+rule split_dataset:
+  input:
+    '{data_dir}/003_deduplicated.genomes.conversion',
+    '{data_dir}/003_deduplicated.genomes.fasta',
+    '{data_dir}/005_annotated.genes.conversion',
+    '{data_dir}/005_annotated.genes.fasta',
+    '{data_dir}/004_hosts',
+    '{data_dir}/004_hosts.counts'
+  output:
+    expand('{{data_dir}}/006_{set_name}.{suffix}', set_name=['train', 'test', 'other'], suffix=SUFFIXES)
+  params:
+    script_dir=SCRIPT_DIR,
+    train_percentage=TRAIN_PERCENTAGE,
+    train_num=TRAIN_NUM,
+    hosts=HOSTS
+  shell:
+    '''
+    if [ {params.hosts} = "" ]; then
+        HOSTS=$(grep -v no_host {input[5]} | head -n {params.train_num} | tr -s " " | cut -f3 -d " " | tr "\n" ",")
+        HOSTS=${{HOSTS::-1}}
+    else
+        HOSTS={params.hosts}
+    fi
+
+    {params.script_dir}/006_split_train_test_other.py {input[2]} {input[3]} {input[0]} {input[1]} {input[4]} \
+                                                      ${{HOSTS}} {params.train_percentage}
+    '''
+
+rule cd_hit:
+  input:
+    '{data_dir}/006_train.genes.fasta'
+  output:
+    '{data_dir}/007_train.cd-hit.genes.fasta',
+    '{data_dir}/007_train.cd-hit.genes.fasta.clstr'
+  threads:
+    THREADS
+  shell:
+    '''
+    cd-hit -c 1 -s 1 -g 1 -d 0 -T {threads} -i {input[0]} -o {output[0]}
+    '''
+
+rule crocoblast:
+  input:
+    '{data_dir}/007_train.cd-hit.genes.fasta'
+  output:
+    '{data_dir}/008_crocoblast.abc'
+  params:
+    script_dir=SCRIPT_DIR
+  threads:
+    THREADS
+  shell:
+    '''
+    rm -rf {wildcards.data_dir}/008_crocoblast/ {wildcards.data_dir}/008_crocoblast_database/
+    cp -r  {params.script_dir}/crocoblast/ {wildcards.data_dir}/008_crocoblast/
+    mkdir  {wildcards.data_dir}/008_crocoblast_database
+
+    {wildcards.data_dir}/008_crocoblast/crocoblast  -add_database                       \
+                                                      --sequence_file                   \
+                                                        protein                         \
+                                                        {input[0]}                      \
+                                                        007_train.cd-hit.genes.fasta    \
+                                                        {wildcards.data_dir}/008_crocoblast_database
+
+    {wildcards.data_dir}/008_crocoblast/crocoblast  -add_to_queue                       \
+                                                      blastp                            \
+                                                      007_train.cd-hit.genes.fasta      \
+                                                      {input[0]}                        \
+                                                      {wildcards.data_dir}              \
+                                                      --blast_options                   \
+                                                        -outfmt 6                       \
+                                                        -max_target_seqs 1000000        \
+                                                        -max_hsps 1
+
+    echo "{wildcards.data_dir}/008_crocoblast/crocoblast -run > /dev/null; touch {wildcards.data_dir}/008_finished"   \
+    | qsub -l thr={threads} -cwd -N crocoblast
+
+    while [ ! -f {wildcards.data_dir}/008_finished ]; do
+        sleep 20m
+    done
+
+    mv {wildcards.data_dir}/CrocoBLAST_1 {wildcards.data_dir}/008_crocoblast_output
+    cut -f 1,2,11 {wildcards.data_dir}/008_crocoblast_output/complete_assembled_output > {output[0]}
+    '''
+
+rule blast_to_needle:
+  input:
+    '{data_dir}/008_crocoblast.abc',
+    '{data_dir}/006_train.genes.fasta'
+  output:
+    '{data_dir}/008_crocoblast.needle.abc'
+  params:
+    script_dir=SCRIPT_DIR,
+    data_dir=DATA_DIR
+  shell:
+    '''
+    NEEDLE_DIR={params.data_dir}/009_needle
+
+    rm -rf ${{NEEDLE_DIR}}
+    mkdir  ${{NEEDLE_DIR}}
+
+    {params.script_dir}/007_parallelize_global_alignment_from_blast.py  {input[0]}                \
+                                                                        {input[1]}                \
+                                                                        ${{NEEDLE_DIR}}
+
+    while [ ! -f ${{NEEDLE_DIR}}/qsub_completed ]; do
+        sleep 20m
+    done;
+
+    for i in $(seq 0 1 9); do
+        cat ${{NEEDLE_DIR}}/tmp/${{i}}*.abc > ${{NEEDLE_DIR}}/tmp/${{i}}.final.abc        \
+            && echo "${{NEEDLE_DIR}}/tmp/${{i}}.final.abc created."                           \
+            || echo "There are no files to merge into ${{i}}.final.abc."
+    done;
+
+    cat ${{NEEDLE_DIR}}/tmp/*.final.abc > {output[0]}
+    '''
+
+rule cluster_spectral:
+  input:
+    '{data_dir}/008_crocoblast.abc'
+  output:
+    '{data_dir}/009_spectral.clusters'
+  shell:
+    '''
+    clusterx -t blast {input[0]} -o {output[0]}
+    '''
+
+rule cluster_mcl:
+  input:
+    '{data_dir}/008_crocoblast.abc'
+  output:
+    '{data_dir}/009_mcl.clusters'
+  shell:
+    '''
+    clusterx -m mcl -p inflation=1.2 {input[0]} -o {output[0]}
+    '''
+
+rule cluster_needle_mcl:
+  input:
+    '{data_dir}/008_crocoblast.needle.abc'
+  output:
+    '{data_dir}/009_needle_mcl.clusters'
+  shell:
+    '''
+    clusterx -m mcl -p inflation=1.2,dont_transform=True {input[0]} -o {output[0]}
+    '''
+
+rule create_cluster_file:
+  input:
+    '{data_dir}/009_{cluster_method}.clusters',
+    '{data_dir}/007_train.cd-hit.genes.fasta.clstr'
+  output:
+    '{data_dir}/010_{cluster_method}.tsv'
+  params:
+    script_dir=SCRIPT_DIR
+  shell:
+    '''
+    {params.script_dir}/010_create_cluster_file.py {input[0]} {input[1]} {output[0]}
+    '''
+
+rule create_matrix:
+  input:
+    '{data_dir}/010_{cluster_method}.tsv',
+    '{data_dir}/006_train.genes.conversion',
+    '{data_dir}/006_train.genomes.fasta'
+  output:
+    '{data_dir}/011_matrix.{cluster_method}.raw.tsv'
+  params:
+    script_dir=SCRIPT_DIR,
+    genomes_list='{data_dir}/011_train.genomes.list'
+  shadow:
+    'shallow'
+  shell:
+    '''
+    grep "^>" {input[2]} | tr -d ">" | sort > {params.genomes_list}
+
+    {params.script_dir}/009_parallelize_matrix_creation_from_mcl.py {input[1]}                    \
+                                                                    {input[0]}                    \
+                                                                    {params.genomes_list}
+
+    while [ $(ls {wildcards.data_dir}/matrix.part* | wc -l) -ne 11 ]; do
+        sleep 1m
+    done
+
+    sleep 1m
+    cat {wildcards.data_dir}/matrix.part* > {output[0]}
+    rm {wildcards.data_dir}/matrix.part*
+    '''
+
+rule annotate_cluster:
+  input:
+    '{data_dir}/005_annotated.genes.fasta',
+    '{data_dir}/010_{cluster_method}.tsv',
+  output:
+    '{data_dir}/011_{cluster_method}_cluster_annotations/Cluster_{i}.result'
+  params:
+    script_dir=SCRIPT_DIR,
+    cluster_annotation_dir='{data_dir}/011_{cluster_method}_cluster_annotations'
+  shell:
+    '''
+    mkdir -p {params.cluster_annotation_dir}
+
+    {params.script_dir}/011_prepare_cluster_for_interpro.py {input[0]}                            \
+                                                            {input[1]}                            \
+                                                            {wildcards.i}                         \
+                                                            > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta
+
+    cd-hit  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta                  \
+            -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit           \
+            -c 1 -d 0
+            # -T 16
+
+    interproscan  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit     \
+                  -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv \
+                  -f tsv -goterms
+                  # -cpu 16
+
+    cut -f 12,13 {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv     \
+        | sort | uniq -c | sort -nr                                                               \
+        > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.result
+    '''
+
+rule select_features:
+  input:
+    '{data_dir}/011_matrix.{cluster_method}.raw.tsv'
+  output:
+    '{data_dir}/011_matrix.{cluster_method}.fs.tsv'
+  params:
+    script_dir=SCRIPT_DIR,
+    variance_threshold=VARIANCE_THRESHOLD
+  shell:
+    '''
+    {params.script_dir}/011_feature_selection.py {input[0]} {output[0]} {params.variance_threshold}
+    '''
+
+rule split_matrix:
+  input:
+    '{data_dir}/011_matrix.{cluster_method}.{type}.tsv',
+    '{data_dir}/004_hosts'
+  output:
+    expand([
+            '{{data_dir}}/012_matrix.{{cluster_method}}.{{type}}.{host}.tsv',
+            '{{data_dir}}/012_hosts.{{cluster_method}}.{{type}}.{host}'
+            ], host=HOSTS.split(',')),
+  params:
+    script_dir=SCRIPT_DIR,
+    hosts=HOSTS
+  shell:
+    '''
+    {params.script_dir}/012_split_matrix.py {input[0]} {input[1]} {params.hosts}
+    '''
+
+rule create_model:
+  input:
+    expand('{{data_dir}}/012_matrix.{{cluster_method}}.{{type}}.{host}.tsv', host=HOSTS.split(',')),
+  output:
+    '{data_dir}/013_model.{cluster_method}.{type}.{spec}.pkl',
+    '{data_dir}/013_tree.{cluster_method}.{type}.{spec}.pdf'
+  params:
+    script_dir=SCRIPT_DIR
+  shell:
+    '''
+    {params.script_dir}/013_decision_tree.py {wildcards.spec} {input}
+    '''
+
+rule split_test_fasta:
+  input:
+    '{data_dir}/006_test.genomes.fasta'
+  output:
+    '{data_dir}/014_classification/{phage}.genomes.fasta'
+  params:
+    classify_dir='{data_dir}/014_classification',
+  shell:
+    '''
+    mkdir -p {params.classify_dir}
+
+    grep -A 1 {wildcards.phage} {input[0]} > {output[0]}
+    '''
+
+rule get_genes:
+  input:
+    '{data_dir}/014_classification/{phage}.genomes.fasta'
+  output:
+    '{data_dir}/014_classification/{phage}.genes.fasta'
+  params:
+    script_dir=SCRIPT_DIR,
+    classify_dir='{data_dir}/014_classification',
+    prefix='{data_dir}/014_classification/{phage}'
+  shell:
+    '''
+    prokka  --force                                                                               \
+            --kingdom Viruses                                                                     \
+            --outdir {params.classify_dir}                                                        \
+            --prefix {wildcards.phage}                                                            \
+            {input[0]}
+
+    {params.script_dir}/005_extract_prokka_genes.py {params.classify_dir}/{wildcards.phage}.gbk   \
+                                                    {params.prefix}
+    '''
+
+rule blast_genes:
+  input:
+    '{data_dir}/014_classification/{phage}.genes.fasta',
+  output:
+    '{data_dir}/014_classification/{phage}.genes.blast',
+  params:
+    database='{data_dir}/008_crocoblast_database/007_train.cd-hit.genes.fasta',
+  shell:
+    '''
+    blastp  -query {input[0]}                                                                     \
+            -db {params.database}                                                                 \
+            -out {output[0]}                                                                      \
+            -outfmt "6 qseqid sseqid score pident evalue"                                         \
+            -max_target_seqs 1
+    '''
+
+rule classify:
+  input:
+    '{data_dir}/014_classification/{phage}.genes.blast',
+    '{data_dir}/010_{cluster_method}.tsv',
+    '{data_dir}/011_matrix.{cluster_method}.{type}.tsv',
+    '{data_dir}/013_model.{cluster_method}.{type}.{spec}.pkl',
+  output:
+    '{data_dir}/014_classification/{phage}.{cluster_method}.{type}.{spec}.vector',
+    '{data_dir}/014_classification/{phage}.{cluster_method}.{type}.{spec}.result',
+  params:
+    script_dir=SCRIPT_DIR,
+  shell:
+    '''
+    {params.script_dir}/014_create_vector.py  {input[0]} {input[1]} {input[2]} {input[3]}         \
+                                              {output[0]} {output[1]}
+    '''
+
+rule stats:
+  input:
+    results=expand('{{data_dir}}/014_classification/{phage}.{{cluster_method}}.{{type}}.{{spec}}.result',
+                    phage=PHAGES.split(',')),
+    hosts='{data_dir}/004_hosts'
+  output:
+    '{data_dir}/015_{cluster_method}.{type}.{spec}.results',
+    '{data_dir}/015_{cluster_method}.{type}.{spec}.stats'
+  params:
+    script_dir=SCRIPT_DIR,
+  shell:
+    '''
+    cat {input.results} > {output[0]}
+
+    {params.script_dir}/015_calculate_stats.py {input.hosts} {output[0]} {output[1]}
+    '''
