@@ -1,0 +1,20 @@
+--- VERSION --- 1.17.11.25 -------------------------------------
+
+1) 32-BIT and 64-BIT LINUX VERSIONS: Now CrocoBLAST has independent 32-bit and 64-bit versions for linux. Before it only had 32-bit versions for linux, which was an issue for some users whose linux setup did not have 32-bit support.
+2) OPTIMAL FRAGMENT SIZE: Improved the detection of optimal fragment size for breaking down the input file. There were some cases when it was yielding a bad fragment size, resulting in significantly slower than optimal execution or crash after a few minutes.
+3) TIME ESTIMATION: Fixed a bug that, in some cases, and only when using more than one thread, caused CrocoBLAST to yield random numbers for the estimation of time to finish the alignent when resuming a previously paused/stopped alignment.
+4) MISC: Now running "./crocoblast -add_database" without any argument will print the appropriate error message instead of crashing.
+5) ZIP FILE CONTENTS: Now when you download the zip file, a new file is included named "set_new_version". Please ignore this file (and it can be deleted with no consequence if you want), as it is only used directly by CrocoBLAST during updates.
+
+
+Known issues:
+1) May crash if given folder names contain spaces
+2) For input files >18 GB, behavior may be unpredictable
+3) Not all BLAST options have been tested
+4) Do not attempt to manually edit any configuration files 
+
+
+On our list for next patches:
+1) DATABASE: Make the "adding database from NCBI" functionality be able to save progress of the download so it can be resumed later. Also, add more messages regarding the progress, and time to download for this function.
+2) EFFICIENCY: Improving CrocoBLAST paralellization efficiency for large number of cores (to keep efficiency > 95% when running on much more than 128 cores).
+3) EFFICIENCY: Improving CrocoBLAST paralellization efficiency for slow file systems (such as network file system). 
