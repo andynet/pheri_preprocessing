@@ -1,0 +1,6302 @@
+{
+    "'Actinoplanes sp. SN223/29'": [
+        "Actinoplanes",
+        "Actinoplanes sp. SN223/29"
+    ],
+    "'Arthrobacter atrocyaneus NRRL B-2883'": [
+        "Sinomonas",
+        "Sinomonas atrocyanea"
+    ],
+    "'Arthrobacter globiformis B-2979'": [
+        "Arthrobacter",
+        "Arthrobacter globiformis"
+    ],
+    "'Arthrobacter sp.  68b'": [
+        "Arthrobacter",
+        "Arthrobacter sp. 68b"
+    ],
+    "'Arthrobacter sp.  ATCC 21022'": [
+        "Arthrobacter",
+        "Arthrobacter sp. ATCC 21022"
+    ],
+    "'Arthrobacter sulfureus NRRL B-14730'": [
+        "Paeniglutamicibacter",
+        "Paeniglutamicibacter sulfureus"
+    ],
+    "'Brevibacterium fuscum NRRL B-14687'": [
+        "Brevibacterium",
+        "Brevibacterium fuscum"
+    ],
+    "'Brevibacterium iodinum ATCC 15728'": [
+        "Brevibacterium",
+        "Brevibacterium iodinum"
+    ],
+    "'Corynebacterium glutamicum NRRL B-2784'": [
+        "Corynebacterium",
+        "Corynebacterium glutamicum"
+    ],
+    "'Corynebacterium vitaeruminis CAG1'": [
+        "Corynebacterium",
+        "Corynebacterium vitaeruminis"
+    ],
+    "'Corynebacterium vitaeruminis NCIB 9291'": [
+        "Corynebacterium",
+        "Corynebacterium vitaeruminis"
+    ],
+    "'Corynebacterium xerosis ATCC 373'": [
+        "Corynebacterium",
+        "Corynebacterium xerosis"
+    ],
+    "'Gordonia alkanivorans DSMZ 44369'": [
+        "Gordonia",
+        "Gordonia alkanivorans"
+    ],
+    "'Gordonia malaquae A448'": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "'Gordonia malaquae BEN700'": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "'Gordonia malaquae G239'": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "'Gordonia neofelifaecis NRRL 59395'": [
+        "Gordonia",
+        "Gordonia neofelifaecis"
+    ],
+    "'Gordonia rubripertincta Grub38'": [
+        "Gordonia",
+        "Gordonia rubripertincta"
+    ],
+    "'Gordonia rubripertincta NRRL B-16540'": [
+        "Gordonia",
+        "Gordonia rubripertincta"
+    ],
+    "'Gordonia sp. G7'": [
+        "Gordonia",
+        "Gordonia sp. G7"
+    ],
+    "'Gordonia sputi G11'": [
+        "Gordonia",
+        "Gordonia sputi"
+    ],
+    "'Gordonia terrae 3612'": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "'Gordonia terrae Ben601'": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "'Gordonia terrae CAG3'": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "'Gordonia terrae Gter34'": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "'Gordonia terrae NRRL B-16283'": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "'Gordonia westfalica NRRL B-24152'": [
+        "Gordonia",
+        "Gordonia westfalica"
+    ],
+    "'Microbacterium aerolatum NRRL B-24228'": [
+        "Microbacterium",
+        "Microbacterium aerolatum"
+    ],
+    "'Microbacterium foliorum NRRL B-24224 SEA'": [
+        "Microbacterium",
+        "Microbacterium foliorum"
+    ],
+    "'Microbacterium nematophilum CBX102'": [
+        "Microbacterium",
+        "Microbacterium nematophilum"
+    ],
+    "'Microbacterium paraoxydans NRRL B-14843'": [
+        "Microbacterium",
+        "Microbacterium paraoxydans"
+    ],
+    "'Microbacterium paraoxydans NWU1'": [
+        "Microbacterium",
+        "Microbacterium paraoxydans"
+    ],
+    "'Microbacterium terrae NRRL B-24214'": [
+        "Microbacterium",
+        "Microbacterium terrae"
+    ],
+    "'Mycobacterium avium ATCC 19698'": [
+        "Mycobacterium",
+        "Mycobacterium avium"
+    ],
+    "'Mycobacterium phlei GTIS10'": [
+        "Mycolicibacterium",
+        "Mycolicibacterium phlei"
+    ],
+    "'Mycobacterium phlei str.'": [
+        "Mycobacterium",
+        "Mycolicibacterium phlei"
+    ],
+    "'Mycobacterium smegmatis ATCC 607'": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "'Mycobacterium smegmatis mc\\xb2155'": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "'Mycobacterium sp. GD01'": [
+        "Mycobacterium",
+        null
+    ],
+    "'Mycobacterium tuberculosis H37Rv'": [
+        "Mycobacterium",
+        "Mycobacterium tuberculosis"
+    ],
+    "'Propionibacterium acnes AD20'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium acnes AS50'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium acnes AT1'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium acnes ATCC 29399'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium acnes ATCC 6919'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium acnes B100.4'": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "'Propionibacterium freudenreichii FD DVS PS-1'": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "'Propionibacterium freudenreichii LS2500'": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "'Propionibacterium freudenreichii TL 110'": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "'Propionibacterium freudenreichii Z435'": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "'Propionibacterium freudenreichii str. (Australian Swiss)'": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "'Rhodococcus equi 05-305'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus equi 05-306'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus equi HDP1C'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus equi MillB'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus equi NCIMB 10027'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus equi Requ28'": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "'Rhodococcus erythropolis NRRL B-1574'": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "'Rhodococcus erythropolis RIA 643'": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "'Rhodococcus erythropolis Rery29'": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "'Rhodococcus globerulus Rglo35'": [
+        "Rhodococcus",
+        "Rhodococcus globerulus"
+    ],
+    "'Rhodococcus rhodochrous Rrho39 (DSMZ43241) '": [
+        "Rhodococcus",
+        "Rhodococcus rhodochrous"
+    ],
+    "'Rothia dentocariosa TC5'": [
+        "Rothia",
+        "Rothia dentocariosa"
+    ],
+    "'Streptomyces aureofaciens B96'": [
+        "Kitasatospora",
+        "Kitasatospora aureofaciens"
+    ],
+    "'Streptomyces avermitilis MA-4680'": [
+        "Streptomyces",
+        "Streptomyces avermitilis"
+    ],
+    "'Streptomyces avermitilis NRRL 8165'": [
+        "Streptomyces",
+        "Streptomyces avermitilis"
+    ],
+    "'Streptomyces azureus NRRL B-2655'": [
+        "Streptomyces",
+        null
+    ],
+    "'Streptomyces coelicolor A3(2)'": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "'Streptomyces griseofuscus ATCC 23916'": [
+        "Streptomyces",
+        "Streptomyces griseobrunneus"
+    ],
+    "'Streptomyces griseus ATCC 10137'": [
+        "Streptomyces",
+        "Streptomyces griseus"
+    ],
+    "'Streptomyces himastatinicus ATCC 53653'": [
+        "Streptomyces",
+        "Streptomyces himastatinicus"
+    ],
+    "'Streptomyces lividans JI 1326'": [
+        "Streptomyces",
+        "Streptomyces lividans"
+    ],
+    "'Streptomyces platensis MJ1A1'": [
+        "Streptomyces",
+        "Streptomyces pratensis"
+    ],
+    "'Streptomyces roseosporus NRRL 11379'": [
+        "Streptomyces",
+        "Streptomyces filamentosus"
+    ],
+    "'Streptomyces scabiei RL-34'": [
+        "Streptomyces",
+        "Streptomyces scabiei"
+    ],
+    "'Streptomyces sp. 9R-2'": [
+        "Streptomyces",
+        null
+    ],
+    "'Streptomyces sp. SPB78'": [
+        "Streptomyces",
+        "Streptomyces sp. SPB78"
+    ],
+    "'Streptomyces sp. Strain C'": [
+        "Streptomyces",
+        null
+    ],
+    "'Streptomyces sp. baron 5a'": [
+        "Streptomyces",
+        null
+    ],
+    "'Streptomyces toxytricini NRRL B-5426'": [
+        "Streptomyces",
+        "Streptomyces toxytricini"
+    ],
+    "'Streptomyces venezuelae 13s1'": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "'Streptomyces venezuelae ATCC 10712'": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "'Streptomyces venezuelae ETH14630'": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "'Streptomyces virginiae ISP-5094'": [
+        "Streptomyces",
+        "Streptomyces virginiae"
+    ],
+    "'Streptomyces viridochromogenes DSM40736'": [
+        "Streptomyces",
+        "Streptomyces viridochromogenes"
+    ],
+    "'Streptomyces xanthochromogenes NRRL B-5410'": [
+        "Streptomyces",
+        "Streptomyces xanthochromogenes"
+    ],
+    "'Tetrasphaera jenkinsii Ben74-DSM 17519'": [
+        "Tetrasphaera",
+        "Tetrasphaera jenkinsii"
+    ],
+    "'Tsukamurella paurometabola CON55'": [
+        "Tsukamurella",
+        "Tsukamurella paurometabola"
+    ],
+    "'Tsukamurella paurometabola Tpau37'": [
+        "Tsukamurella",
+        "Tsukamurella paurometabola"
+    ],
+    "Acaryochloris marina strain MBIC11017": [
+        "Acaryochloris",
+        "Acaryochloris marina"
+    ],
+    "Acholeplasma laidlawii": [
+        "Acholeplasma",
+        "Acholeplasma laidlawii"
+    ],
+    "Achromobacter xylosoxidans": [
+        "Achromobacter",
+        "Achromobacter xylosoxidans"
+    ],
+    "Achromobacter xylosoxidans A22732": [
+        "Achromobacter",
+        "Achromobacter xylosoxidans"
+    ],
+    "Achromobacter xylosoxidans CCUG 48136": [
+        "Achromobacter",
+        "Achromobacter xylosoxidans"
+    ],
+    "Achromobacter xylosoxidans DSM 11852": [
+        "Achromobacter",
+        "Achromobacter xylosoxidans"
+    ],
+    "Acidithiobacillus caldus ATCC 51756": [
+        "Acidithiobacillus",
+        "Acidithiobacillus caldus"
+    ],
+    "Acidovorax citrulli": [
+        "Acidovorax",
+        "Acidovorax citrulli"
+    ],
+    "Acinetobacter": [
+        "Acinetobacter",
+        null
+    ],
+    "Acinetobacter baumannii": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii (clinical strain AB09V)": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii 1432": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii 28": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii 54149": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii A118": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii AB2": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii ATCC 17978": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii AU0783": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii Ab105": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii Acb8/09": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii DSM 30007": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii M2": [
+        "Acinetobacter",
+        "Acinetobacter nosocomialis"
+    ],
+    "Acinetobacter baumannii M68316": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii NIPH 2061": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii NIPH 528": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii WCHAB1334": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii YMC/09/02/B1251": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii YMC/13/01/C62": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter baumannii YMC13/03/R2096": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "Acinetobacter genomosp. 16": [
+        "Acinetobacter",
+        "Acinetobacter genomosp. 16BJ"
+    ],
+    "Acinetobacter johnsonii": [
+        "Acinetobacter",
+        "Acinetobacter johnsonii"
+    ],
+    "Acinetobacter pittii": [
+        "Acinetobacter",
+        "Acinetobacter pittii"
+    ],
+    "Acinetobacter pittii CEB-AP": [
+        "Acinetobacter",
+        "Acinetobacter pittii"
+    ],
+    "Acinetobacter pittii NIPH 76": [
+        "Acinetobacter",
+        "Acinetobacter pittii"
+    ],
+    "Acinetobacter soli KZ-1": [
+        "Acinetobacter",
+        "Acinetobacter soli"
+    ],
+    "Acinetobacter sp.": [
+        "Acinetobacter",
+        "Acinetobacter sp."
+    ],
+    "Actinobacillus actinomycetemcomitans": [
+        "Aggregatibacter",
+        "Aggregatibacter actinomycetemcomitans"
+    ],
+    "Actinomyces naeslundii": [
+        "Actinomyces",
+        "Actinomyces naeslundii"
+    ],
+    "Actinomyces odontolyticus subsp. actinosynbacter XH001": [
+        "Actinomyces",
+        "Actinomyces odontolyticus"
+    ],
+    "Actinoplanes sp. SN223/29": [
+        "Actinoplanes",
+        "Actinoplanes sp. SN223/29"
+    ],
+    "Aeribacillus pallidus": [
+        "Aeribacillus",
+        "Aeribacillus pallidus"
+    ],
+    "Aeromonas hydrophila": [
+        "Aeromonas",
+        "Aeromonas hydrophila"
+    ],
+    "Aeromonas hydrophila AH300206": [
+        "Aeromonas",
+        "Aeromonas hydrophila"
+    ],
+    "Aeromonas hydrophila ATCC 7966": [
+        "Aeromonas",
+        "Aeromonas hydrophila"
+    ],
+    "Aeromonas hydrophila JUNAH": [
+        "Aeromonas",
+        "Aeromonas hydrophila"
+    ],
+    "Aeromonas media": [
+        "Aeromonas",
+        "Aeromonas media"
+    ],
+    "Aeromonas salmonicida": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida 08-2783": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida HER1084": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida HER1098": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida HER1104": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida HER1108": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida HER1110": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida M15879-11": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas salmonicida subsp. salmonicida": [
+        "Aeromonas",
+        "Aeromonas salmonicida"
+    ],
+    "Aeromonas sp.": [
+        "Aeromonas",
+        "Aeromonas sp."
+    ],
+    "Aeromonas sp. ARM81": [
+        "Aeromonas",
+        "Aeromonas sp. ARM81"
+    ],
+    "Aggregatibacter actinomycetemcomitans D11S-1": [
+        "Aggregatibacter",
+        "Aggregatibacter actinomycetemcomitans"
+    ],
+    "Agrobacterium sp. H13-3": [
+        "Agrobacterium",
+        "Agrobacterium sp. H13-3"
+    ],
+    "Agrobacterium tumefaciens C58": [
+        "Agrobacterium",
+        "Agrobacterium fabrum"
+    ],
+    "Ain Shams Center for Genetic Engineering and Biotechnology (ACGEB)": [
+        null,
+        null
+    ],
+    "Alteromonadaceae": [
+        null,
+        null
+    ],
+    "Alteromonas gracilis 9a2": [
+        "Alteromonas",
+        "Alteromonas gracilis"
+    ],
+    "Alteromonas macleodii str. 'Balearic Sea AD45'": [
+        "Alteromonas",
+        "Alteromonas macleodii"
+    ],
+    "Alteromonas marina SW-47": [
+        "Alteromonas",
+        "Alteromonas marina"
+    ],
+    "Anabaena variabilis": [
+        "Trichormus",
+        "Trichormus variabilis"
+    ],
+    "Anoxybacillus caldiproteolyticus": [
+        "Anoxybacillus",
+        "Anoxybacillus caldiproteolyticus"
+    ],
+    "Aphanizomenon flos-aquae": [
+        "Aphanizomenon",
+        "Aphanizomenon flos-aquae"
+    ],
+    "Aquamicrobium sp. H14": [
+        "Aquamicrobium",
+        "Aquamicrobium sp. H14"
+    ],
+    "Arthrobacter sp ATCC 21022": [
+        "Arthrobacter",
+        "Arthrobacter sp. ATCC 21022"
+    ],
+    "Arthrobacter sp.": [
+        "Arthrobacter",
+        "Arthrobacter sp."
+    ],
+    "Arthrobacter sp. ATCC 20122": [
+        "Arthrobacter",
+        "Arthrobacter sp. ATCC 21022"
+    ],
+    "Arthrobacter sp. ATCC 21022": [
+        "Arthrobacter",
+        "Arthrobacter sp. ATCC 21022"
+    ],
+    "Arthrobacter sp. ATCC21022": [
+        "Arthrobacter",
+        "Arthrobacter sp. ATCC 21022"
+    ],
+    "Aurantimonas sp. C5-1": [
+        "Aurantimonas",
+        "Aurantimonas sp. C5-1"
+    ],
+    "Azospirillum brasilense Cd": [
+        "Azospirillum",
+        "Azospirillum brasilense"
+    ],
+    "Bacilluls thuringiensis kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus alcalophilus CGMCC 1.3604": [
+        "Bacillus",
+        "Bacillus alcalophilus"
+    ],
+    "Bacillus anthracis": [
+        "Bacillus",
+        "Bacillus anthracis"
+    ],
+    "Bacillus anthracis Vollum": [
+        "Bacillus",
+        "Bacillus anthracis"
+    ],
+    "Bacillus cereus": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus 6A1": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus ATCC 14579": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus ATCC 21772": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus ATCC 4342": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus BGSC 6E1": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus BtB2-4": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus EFR-4": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus EFR-5": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus HER1399": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus IS075": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus JCM 2152": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus LH002": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus MYB41-22": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus NC7401/2455": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus S58": [
+        "Bacillus",
+        "Bacillus cereus"
+    ],
+    "Bacillus cereus/thuringiensis group": [
+        "Bacillus",
+        null
+    ],
+    "Bacillus clarkii": [
+        null,
+        null
+    ],
+    "Bacillus halmapalus DSM 29712": [
+        "Bacillus",
+        "Bacillus halmapalus"
+    ],
+    "Bacillus megaterium": [
+        "Bacillus",
+        "Bacillus megaterium"
+    ],
+    "Bacillus megaterium Km": [
+        "Bacillus",
+        "Bacillus megaterium"
+    ],
+    "Bacillus megaterium Km Sp-": [
+        "Bacillus",
+        "Bacillus megaterium"
+    ],
+    "Bacillus megaterium str. ATCC 43725": [
+        "Bacillus",
+        "Bacillus megaterium"
+    ],
+    "Bacillus megaterium strain Km Sp-": [
+        "Bacillus",
+        "Bacillus megaterium"
+    ],
+    "Bacillus mycoides": [
+        "Bacillus",
+        "Bacillus mycoides"
+    ],
+    "Bacillus pumilus": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus pumilus BL-8": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus pumilus BL8": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus pumilus GL1": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus pumilus GR8": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus pumilus strain 145": [
+        "Bacillus",
+        "Bacillus pumilus"
+    ],
+    "Bacillus sp.": [
+        "Bacillus",
+        "Bacillus sp. (in: Bacteria)"
+    ],
+    "Bacillus sp. G1R": [
+        "Bacillus",
+        null
+    ],
+    "Bacillus sp. MGK1": [
+        "Bacillus",
+        null
+    ],
+    "Bacillus sp. MGK1/ERV9": [
+        "Bacillus",
+        null
+    ],
+    "Bacillus subtilis": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis (natto)": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis 9/3": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis ATCC 15245": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis BEST7003": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis BGSC 1L32": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis Goe2": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis Goe3": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis W-23-S(r); Bacillus licheniformis ATCC 9945a": [
+        "Bacillus",
+        null
+    ],
+    "Bacillus subtilis str. 168": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis subsp. natto": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus subtilis subsp. subtilis 168": [
+        "Bacillus",
+        "Bacillus subtilis"
+    ],
+    "Bacillus thuringienses Kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis 4B1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis 4I1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis 4J1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis BGSC 4AE1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis BGSC 4AJ1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis BGSC 4R1": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis Berliner 1915, DSM 350": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis DSM 350": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis DSM-350": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis DSM350": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis Kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis YBT-1518": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis YBT-1765": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis israelensis": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis serovar israelensis": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis serovar tenebrionis strain YBT-1765": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis strain YM-03": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subsp. Kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subsp. kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subsp. kurstaki ATCC 33679": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subsp. tenebrionis YBT-1765": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subspecies Kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis subspecies kurstaki": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus thuringiensis var. israelensis ATCC 35646": [
+        "Bacillus",
+        "Bacillus thuringiensis"
+    ],
+    "Bacillus velezensis FZB42": [
+        "Bacillus",
+        "Bacillus velezensis"
+    ],
+    "Bacillus weihenstephanensis MG1": [
+        "Bacillus",
+        "Bacillus mycoides"
+    ],
+    "Bacteroides fragilis": [
+        "Bacteroides",
+        "Bacteroides fragilis"
+    ],
+    "Bacteroides fragilis HSP40 (ATCC 51477)": [
+        "Bacteroides",
+        "Bacteroides fragilis"
+    ],
+    "Bdellovibrio bacteriovorus": [
+        "Bdellovibrio",
+        "Bdellovibrio bacteriovorus"
+    ],
+    "Bdellovibrio bacteriovorus H-I 109": [
+        "Bdellovibrio",
+        "Bdellovibrio bacteriovorus"
+    ],
+    "Bifidobacterium bifidum strain 317B": [
+        "Bifidobacterium",
+        "Bifidobacterium bifidum"
+    ],
+    "Bordetella bronchiseptica": [
+        "Bordetella",
+        "Bordetella bronchiseptica"
+    ],
+    "Bordetella bronchiseptica 4715": [
+        "Bordetella",
+        "Bordetella bronchiseptica"
+    ],
+    "Bordetella bronchiseptica ATCC 10580": [
+        "Bordetella",
+        "Bordetella bronchiseptica"
+    ],
+    "Bradyrhizobium diazoefficiens USDA110": [
+        "Bradyrhizobium",
+        "Bradyrhizobium diazoefficiens"
+    ],
+    "Brevibacillus laterosporus": [
+        "Brevibacillus",
+        "Brevibacillus laterosporus"
+    ],
+    "Brevibacterium iodinum ATCC 15728": [
+        "Brevibacterium",
+        "Brevibacterium iodinum"
+    ],
+    "Brochothrix thermosphacta": [
+        "Brochothrix",
+        "Brochothrix thermosphacta"
+    ],
+    "Brochothrix thermosphacta HER1187": [
+        "Brochothrix",
+        "Brochothrix thermosphacta"
+    ],
+    "Brucella abortus": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "Brucella abortus 141": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "Brucella abortus 544": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "Brucella abortus S19": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "Brucella canis": [
+        "Brucella",
+        "Brucella canis"
+    ],
+    "Brucella inopinata strain BO1": [
+        "Brucella",
+        "Brucella inopinata"
+    ],
+    "Brucella melitensis": [
+        "Brucella",
+        "Brucella melitensis"
+    ],
+    "Brucella melitensis 16M": [
+        "Brucella",
+        "Brucella melitensis"
+    ],
+    "Brucella sp.": [
+        "Brucella",
+        "Brucella sp."
+    ],
+    "Brucella suis S708": [
+        "Brucella",
+        "Brucella suis"
+    ],
+    "Burkholderia ambifaria": [
+        "Burkholderia",
+        "Burkholderia ambifaria"
+    ],
+    "Burkholderia ambifaria strain LMG 17828": [
+        "Burkholderia",
+        "Burkholderia ambifaria"
+    ],
+    "Burkholderia cenocepacia": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cenocepacia 7780": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cenocepacia C6433": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cenocepacia HI2424": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cenocepacia K56-2": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cenocepacia strain C6433": [
+        "Burkholderia",
+        "Burkholderia cenocepacia"
+    ],
+    "Burkholderia cepacia": [
+        "Burkholderia",
+        "Burkholderia cepacia"
+    ],
+    "Burkholderia cepacia LMG 18821": [
+        "Burkholderia",
+        "Burkholderia cepacia"
+    ],
+    "Burkholderia pseudomallei": [
+        "Burkholderia",
+        "Burkholderia pseudomallei"
+    ],
+    "Burkholderia pseudomallei 1026b": [
+        "Burkholderia",
+        "Burkholderia pseudomallei"
+    ],
+    "Burkholderia pseudomallei 9": [
+        "Burkholderia",
+        "Burkholderia pseudomallei"
+    ],
+    "Burkholderia pseudomallei K96243": [
+        "Burkholderia",
+        "Burkholderia pseudomallei"
+    ],
+    "Burkholderia pseudomallei environmental isolate E0237": [
+        "Burkholderia",
+        "Burkholderia pseudomallei"
+    ],
+    "Burkholderia pyrrocinia strain LMG 21824": [
+        "Burkholderia",
+        "Burkholderia pyrrocinia"
+    ],
+    "Burkholderia thailandensis": [
+        "Burkholderia",
+        "Burkholderia thailandensis"
+    ],
+    "C. pecorum": [
+        null,
+        null
+    ],
+    "Caldibacillus debilis GB1": [
+        "Caldibacillus",
+        "Caldibacillus debilis"
+    ],
+    "Campylobacter": [
+        "Campylobacter",
+        null
+    ],
+    "Campylobacter jejuni": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni LBA65": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni NCTC 11168": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni 00-0949": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni 00-1597": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni 00-2425": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni 00-6200": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni 01-1512": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter jejuni subsp. jejuni PT14": [
+        "Campylobacter",
+        "Campylobacter jejuni"
+    ],
+    "Campylobacter sp.": [
+        "Campylobacter",
+        "Campylobacter sp."
+    ],
+    "Candidatus Azobacteroides pseudotrichonymphae": [
+        "Candidatus Azobacteroides",
+        "Candidatus Azobacteroides pseudotrichonymphae"
+    ],
+    "Candidatus Hamiltonella defensa": [
+        "Candidatus Hamiltonella",
+        "Candidatus Hamiltonella defensa"
+    ],
+    "Candidatus Hamiltonella defensa (type T), secondary endosymbiont of pea aphid (Acyrthosiphon pisum)": [
+        "Candidatus Hamiltonella",
+        "Candidatus Hamiltonella defensa"
+    ],
+    "Candidatus Hamiltonella defensa strain 5ATac": [
+        "Candidatus Hamiltonella",
+        "Candidatus Hamiltonella defensa"
+    ],
+    "Candidatus Hamiltonella defensa strain A1A": [
+        "Candidatus Hamiltonella",
+        "Candidatus Hamiltonella defensa"
+    ],
+    "Candidatus Liberibacter asiaticus Psy62": [
+        "Liberibacter",
+        "Candidatus Liberibacter asiaticus"
+    ],
+    "Candidatus Liberibacter asiaticus UF506": [
+        "Liberibacter",
+        "Candidatus Liberibacter asiaticus"
+    ],
+    "Candidatus Liberibacter asiaticus str. HHCA": [
+        "Liberibacter",
+        "Candidatus Liberibacter asiaticus"
+    ],
+    "Candidatus Liberibacter asiaticus str. JXGC": [
+        "Liberibacter",
+        "Candidatus Liberibacter asiaticus"
+    ],
+    "Candidatus Nitrososphaera sp. EN76": [
+        "Nitrososphaera",
+        "Nitrososphaera viennensis"
+    ],
+    "Candidatus Pelagibacter ubique HTCC1062": [
+        "Candidatus Pelagibacter",
+        "Candidatus Pelagibacter ubique"
+    ],
+    "Candidatus Puniceispirillum marinum IMCC1322": [
+        "Candidatus Puniceispirillum",
+        "Candidatus Puniceispirillum marinum"
+    ],
+    "Candidatus Xenohaliotis californiensis": [
+        "Candidatus Xenohaliotis",
+        "Candidatus Xenohaliotis californiensis"
+    ],
+    "Caulobacter crescentus": [
+        "Caulobacter",
+        "Caulobacter vibrioides"
+    ],
+    "Caulobacter crescentus CB15": [
+        "Caulobacter",
+        "Caulobacter vibrioides"
+    ],
+    "Caulobacter crescentus NA1000": [
+        "Caulobacter",
+        "Caulobacter vibrioides"
+    ],
+    "Caulobacter sp.": [
+        "Caulobacter",
+        "Caulobacter sp."
+    ],
+    "Celeribacter sp. IMCC12053": [
+        "Celeribacter",
+        "Celeribacter marinus"
+    ],
+    "Cellulophaga baltica #10": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #12": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #13": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #14": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #17": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #18": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #19": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica #4": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica '#3 r phiST'": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica MM#3": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN014847": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN015839": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN015840": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN016038": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN016046": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica NN016048": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Cellulophaga baltica OL12a": [
+        "Cellulophaga",
+        "Cellulophaga baltica"
+    ],
+    "Chlamydia psittaci": [
+        "Chlamydia",
+        "Chlamydia psittaci"
+    ],
+    "Chlamydophila abortus": [
+        "Chlamydia",
+        "Chlamydia abortus"
+    ],
+    "Chlamydophila pneumoniae AR39": [
+        "Chlamydia",
+        "Chlamydia pneumoniae"
+    ],
+    "Circulifer haematoceps": [
+        "Neoaliturus",
+        null
+    ],
+    "Citrobacter freundii": [
+        "Citrobacter",
+        "Citrobacter freundii"
+    ],
+    "Citrobacter freundii CF3": [
+        "Citrobacter",
+        "Citrobacter freundii"
+    ],
+    "Citrobacter freundii CF5": [
+        "Citrobacter",
+        "Citrobacter freundii"
+    ],
+    "Citrobacter freundii P10159": [
+        "Citrobacter",
+        "Citrobacter freundii"
+    ],
+    "Citrobacter rodentium": [
+        "Citrobacter",
+        "Citrobacter rodentium"
+    ],
+    "Citrobacter rodentium DBS100": [
+        "Citrobacter",
+        "Citrobacter rodentium"
+    ],
+    "Citrobacter rodentium ICC180": [
+        "Citrobacter",
+        "Citrobacter rodentium"
+    ],
+    "Citrobacter sp.": [
+        "Citrobacter",
+        "Citrobacter sp."
+    ],
+    "Citrobacter sp. TM1552": [
+        "Citrobacter",
+        "Citrobacter sp. TM1552"
+    ],
+    "Citromicrobium sp. RCC1878": [
+        "Citromicrobium",
+        "Citromicrobium sp. RCC1878"
+    ],
+    "Clavibacter michiganensis CN18-4": [
+        "Clavibacter",
+        "Clavibacter michiganensis"
+    ],
+    "Clavibacter michiganensis subsp. michiganensis": [
+        "Clavibacter",
+        "Clavibacter michiganensis"
+    ],
+    "Clavibacter michiganensis subsp. nebraskensis": [
+        "Clavibacter",
+        "Clavibacter nebraskensis"
+    ],
+    "Clostridioides difficile": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Clostridioides difficile Semix9": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Clostridium botulinum type C strain C-Stockholm": [
+        null,
+        null
+    ],
+    "Clostridium difficile": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Clostridium difficile AIU": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Clostridium difficile strain CD105HE1 ribotype 076": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Clostridium perfringens": [
+        "Clostridium",
+        "Clostridium perfringens"
+    ],
+    "Clostridium perfringens 5147-97": [
+        "Clostridium",
+        "Clostridium perfringens"
+    ],
+    "Clostridium perfringens SM101": [
+        "Clostridium",
+        "Clostridium perfringens"
+    ],
+    "Clostridium perfringens i-1": [
+        "Clostridium",
+        "Clostridium perfringens"
+    ],
+    "Clostridium perfringens strain S63": [
+        "Clostridium",
+        "Clostridium perfringens"
+    ],
+    "Clostridium saccharoperbutylacetonicum N1-4 (HMT)": [
+        "Clostridium",
+        "Clostridium saccharoperbutylacetonicum"
+    ],
+    "Clostridium sporogenes": [
+        "Clostridium",
+        "Clostridium sporogenes"
+    ],
+    "Clostridium tetani ATCC 19406": [
+        "Clostridium",
+        "Clostridium tetani"
+    ],
+    "Clostridium tetani ATCC 453": [
+        "Clostridium",
+        "Clostridium tetani"
+    ],
+    "Clostridium tetani ATCC 9441": [
+        "Clostridium",
+        "Clostridium tetani"
+    ],
+    "Clostridium tetani C2": [
+        "Clostridium",
+        "Clostridium tetani"
+    ],
+    "Colwellia psychrerythaea strain 34H": [
+        "Colwellia",
+        "Colwellia psychrerythraea"
+    ],
+    "Corynebacterium glutamicum": [
+        "Corynebacterium",
+        "Corynebacterium glutamicum"
+    ],
+    "Corynebacterium glutamicum ATCC 21792": [
+        "Corynebacterium",
+        "Corynebacterium glutamicum"
+    ],
+    "Corynebacterium pseudotuberculosis 31": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 32": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 33": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 34": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 35": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 36": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 38": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 39": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium pseudotuberculosis biovar Equi 48": [
+        "Corynebacterium",
+        "Corynebacterium pseudotuberculosis"
+    ],
+    "Corynebacterium simulans IME1320": [
+        "Corynebacterium",
+        "Corynebacterium simulans"
+    ],
+    "Corynebacterium vitaeruminis CAG1": [
+        "Corynebacterium",
+        "Corynebacterium vitaeruminis"
+    ],
+    "Corynebacterium vitaeruminis CAG1, a derivative of (NCIB9291)": [
+        "Corynebacterium",
+        "Corynebacterium vitaeruminis"
+    ],
+    "Corynebacterium vitaeruminis NCIB 9291": [
+        "Corynebacterium",
+        "Corynebacterium vitaeruminis"
+    ],
+    "Croceibacter atlanticus HTCC2559": [
+        "Croceibacter",
+        "Croceibacter atlanticus"
+    ],
+    "Cronobacter sakazakii": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sakazakii ATCC 29544": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sakazakii ATCC BAA 894": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sakazakii ATCC BAA894": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sakazakii ATCC29544": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sakazakii strain 51329": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Cronobacter sp.": [
+        "Cronobacter",
+        "Cronobacter sp."
+    ],
+    "Cronobacter turicensis DNV1": [
+        "Cronobacter",
+        "Cronobacter turicensis"
+    ],
+    "Cutibacterium acnes 01-A-087": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes 02-A-018": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes 03-A-023": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes 05-A-026": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes 06-0893": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes ATCC 29399": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Cutibacterium acnes ATCC 6919": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Delftia acidovorans": [
+        "Delftia",
+        "Delftia acidovorans"
+    ],
+    "Delftia sp. 670": [
+        "Delftia",
+        "Delftia sp. 670"
+    ],
+    "Delftia tsuruhatensis ARB-1": [
+        "Delftia",
+        "Delftia tsuruhatensis"
+    ],
+    "Dickeya dadantii": [
+        "Dickeya",
+        "Dickeya dadantii"
+    ],
+    "Dickeya solani": [
+        "Dickeya",
+        "Dickeya solani"
+    ],
+    "Dickeya solani DSM 28711": [
+        "Dickeya",
+        "Dickeya solani"
+    ],
+    "Dickeya solani F012": [
+        "Dickeya",
+        "Dickeya solani"
+    ],
+    "Dickeya sp.": [
+        "Dickeya",
+        "Dickeya sp."
+    ],
+    "Dickeya sp. B16": [
+        "Dickeya",
+        "Dickeya sp. B16"
+    ],
+    "Didelphis marsupialis": [
+        "Didelphis",
+        "Didelphis marsupialis"
+    ],
+    "Dinoroseobacter shibae DFL12": [
+        "Dinoroseobacter",
+        "Dinoroseobacter shibae"
+    ],
+    "Dinoroseobacter shibae DFL12T": [
+        "Dinoroseobacter",
+        "Dinoroseobacter shibae"
+    ],
+    "E. coli O157:H7 R508 (phage type 14)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "E. coli O157:H7 strain CB2851": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "E. coli ONT:H- strain 2771/97": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Edwardsiella ictaluri": [
+        "Edwardsiella",
+        "Edwardsiella ictaluri"
+    ],
+    "Endosymbiont": [
+        null,
+        null
+    ],
+    "Enterobacter aerogenes": [
+        "Klebsiella",
+        "Klebsiella aerogenes"
+    ],
+    "Enterobacter aerogenes 3-SP": [
+        "Klebsiella",
+        "Klebsiella aerogenes"
+    ],
+    "Enterobacter asburiae": [
+        "Enterobacter",
+        "Enterobacter asburiae"
+    ],
+    "Enterobacter cancerogenus": [
+        "Enterobacter",
+        "Enterobacter cancerogenus"
+    ],
+    "Enterobacter cloacae": [
+        "Enterobacter",
+        "Enterobacter cloacae"
+    ],
+    "Enterobacter cloacae clinial isolate EC7": [
+        "Enterobacter",
+        "Enterobacter cloacae"
+    ],
+    "Enterobacter sp. CT7": [
+        "Enterobacter",
+        "Enterobacter sp. CT7"
+    ],
+    "Enterobacteriaceae": [
+        null,
+        null
+    ],
+    "Enterobacteriaceae bacterium bta3-1": [
+        null,
+        null
+    ],
+    "Enterococcus faecalis": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 002": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 2003": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 2007": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 2008": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 62": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis 8413": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis ATCC 19433": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis ATCC 49533": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis FAIR-E238": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis GF29": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecalis N10": [
+        "Enterococcus",
+        "Enterococcus faecalis"
+    ],
+    "Enterococcus faecium": [
+        "Enterococcus",
+        "Enterococcus faecium"
+    ],
+    "Enterococcus faecium PFL01": [
+        "Enterococcus",
+        "Enterococcus faecium"
+    ],
+    "Enterococcus sp.": [
+        "Enterococcus",
+        "Enterococcus sp."
+    ],
+    "Erwinia amylovora": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora 1/79": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora ATCC 29780": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora B0.1960 (NCAIM, Hungary)": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora CFBP 1430": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora DSM17948": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora NCPPB 595": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora strain Ea17-1-1": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora strain Ea29-7": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia amylovora strain phiEa100 ATCC 29780": [
+        "Erwinia",
+        "Erwinia amylovora"
+    ],
+    "Erwinia pyrifoliae": [
+        "Erwinia",
+        "Erwinia pyrifoliae"
+    ],
+    "Erwinia sp. 60": [
+        "Erwinia",
+        null
+    ],
+    "Erwinia tracheiphila": [
+        "Erwinia",
+        "Erwinia tracheiphila"
+    ],
+    "Erwinia tracheiphila Et-B": [
+        "Erwinia",
+        "Erwinia tracheiphila"
+    ],
+    "Erysipelothrix rhusiopathiae": [
+        "Erysipelothrix",
+        "Erysipelothrix rhusiopathiae"
+    ],
+    "Erysipelothrix rhusiopathiae ZJ": [
+        "Erysipelothrix",
+        "Erysipelothrix rhusiopathiae"
+    ],
+    "Erythrobacter litoralis DSM 8509": [
+        "Erythrobacter",
+        "Erythrobacter litoralis"
+    ],
+    "Escherichia Coli": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 147-30R1": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 15-318 (MDR)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 172": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 3-104": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 333": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 49": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli 4s": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli ART2": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli ATCC 11303": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli ATCC 13706": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli B": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli B strains": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli B;Escherichia coli K12;Shigella flexneri": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Escherichia coli BEN 4311": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli BEN 5202": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli BEN2268": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli BL21": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli BL21(DE3)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli C": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli C600": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13353, serotype O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13357, serotype O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13363, serotype O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13368, serotype O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13374, serotype O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13771, EAEC-STEC O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB13803, STEC O2:H27": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB14437, EAEC-STEC O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CB8983, EAEC-STEC O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CFT073": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli CP9": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE017": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE048": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE172": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE217": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE48": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DE69": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli DM01": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli ECOR10": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli H, strain 2158": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli H21": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli H8": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli HY05C": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli IJ1862": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli J53 (plasmid RIP69)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli JM109": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli JM110": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12 (F+)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12 CV601": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12 IJ2038": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12 MG1655": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K-12 subsr. MG1655": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K12": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K12 MG1655": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K88": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli K92": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli KBP135": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli KBP1711": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli KBP21": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli MC1061": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli MG1655": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli MuLB70.1": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli NovaBlue": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O103:H25 strain NIPH-11060424/NVH-734": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O104:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O104:H4 strain ON-2011": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O111:H-": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O111:H2 strain ED 191": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O117:H7 strain 23169": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O145:H- strain FB5": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O145:NM": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O153": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157 EC-48 (63-Fv18-1)": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H43 str. T22": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 ATCC 43890": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 E318": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 EDL933": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 Morioka V526": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 Okayama O-27": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 SH2026": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 Sakai": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 str. Min27": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 1447": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 71074": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 980938": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 981795": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 982243": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 990281": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain 990570": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F349": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F403": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F422": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F451": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F723": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7 strain F765": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7, strain EDL933": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O157:H7, strain RIMD0509894": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O165:H8": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O18:K1:H7": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O18ac:K1:H7 ColV+": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O55:H7 str. DEC5E": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O78": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O78.A": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O78:K80": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O86:H-, strain DIJ1": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O:157 EC-48": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli O:45 strain C1328": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA11": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA12": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA16": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA18": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA2": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA21": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA27": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA28": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA29": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA30": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA32": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA33": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA36": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA42": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA44": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA45": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA5": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA50": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA51": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA52": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli PA8": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli RS218": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli SA53": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli SKB178": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli SMQXXXX": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli ST130": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli STEC O179": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli TOP 10 F'": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli UFV30": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli VN2-O8:F4 ETEC": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli W strain ATCC9637": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli YCD107": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli YDC107": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli clinical isolate 3": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli serotype O157:H7": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli str. K-12 substr. MG1655": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli strain 8099": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli strain K12": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli strain LM33": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli strain O174:H21 isolate 1720a": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli, Salmonella typhimurium, Salmonella enteritidis": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli, strain 4795/97, serotype O84:H4": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia coli; O157:H7; NCTC 12900": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "Escherichia sp.": [
+        "Escherichia",
+        "Escherichia sp."
+    ],
+    "Exiguobacterium aurantiacum DSM 29719": [
+        "Exiguobacterium",
+        "Exiguobacterium aurantiacum"
+    ],
+    "Faecalibacterium prausnitzii": [
+        "Faecalibacterium",
+        "Faecalibacterium prausnitzii"
+    ],
+    "Flavobacterium columnare": [
+        "Flavobacterium",
+        "Flavobacterium columnare"
+    ],
+    "Flavobacterium columnare B185": [
+        "Flavobacterium",
+        "Flavobacterium columnare"
+    ],
+    "Flavobacterium psychrophilum 950106-1/1": [
+        "Flavobacterium",
+        "Flavobacterium psychrophilum"
+    ],
+    "Flavobacterium psychrophilum A2": [
+        "Flavobacterium",
+        "Flavobacterium psychrophilum"
+    ],
+    "Flavobacterium psychrophilum MH1": [
+        "Flavobacterium",
+        "Flavobacterium psychrophilum"
+    ],
+    "Flavobacterium psychrophilum T23": [
+        "Flavobacterium",
+        "Flavobacterium psychrophilum"
+    ],
+    "Flavobacterium psychrophilum strain MH1": [
+        "Flavobacterium",
+        "Flavobacterium psychrophilum"
+    ],
+    "Flavobacterium sp.": [
+        "Flavobacterium",
+        "Flavobacterium sp."
+    ],
+    "Flavobacterium sp. B183": [
+        "Flavobacterium",
+        "Flavobacterium sp. B183"
+    ],
+    "Flavobacterium sp. B330": [
+        "Flavobacterium",
+        "Flavobacterium sp. B3_30"
+    ],
+    "Fusobacterium nucleatum 7_1": [
+        "Fusobacterium",
+        "Fusobacterium nucleatum"
+    ],
+    "Geobacillus kaustophilus ATCC 8005": [
+        "Geobacillus",
+        "Geobacillus kaustophilus"
+    ],
+    "Geobacillus sp. 6k51": [
+        "Geobacillus",
+        "Geobacillus sp. 6k51"
+    ],
+    "Geobacillus stearothermophilus 2184": [
+        "Geobacillus",
+        "Geobacillus stearothermophilus"
+    ],
+    "Gluconobacter cerinus": [
+        "Gluconobacter",
+        "Gluconobacter cerinus"
+    ],
+    "Gordonia alkanivorans strain CON72": [
+        "Gordonia",
+        "Gordonia alkanivorans"
+    ],
+    "Gordonia malaquae A448": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "Gordonia malaquae BEN700": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "Gordonia malaquae CON60": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "Gordonia malaquae CON67": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "Gordonia malaquae strain BEN700": [
+        "Gordonia",
+        "Gordonia malaquae"
+    ],
+    "Gordonia neofelifaecis NRRL 59395": [
+        "Gordonia",
+        "Gordonia neofelifaecis"
+    ],
+    "Gordonia rubropertincta strain CON38": [
+        "Gordonia",
+        "Gordonia rubripertincta"
+    ],
+    "Gordonia rubropertincta strain Grub38": [
+        "Gordonia",
+        "Gordonia rubripertincta"
+    ],
+    "Gordonia sp.": [
+        "Gordonia",
+        "Gordonia sp."
+    ],
+    "Gordonia sputi": [
+        "Gordonia",
+        "Gordonia sputi"
+    ],
+    "Gordonia terrae": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae 3612": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae 3621": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae ATCC 3612": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae ATCC3612": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae CAG3": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae NRRL B-16283": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae strain Ben601": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae strain CON34": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae strain G232": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrae strain Gter34": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia terrea 3612": [
+        "Gordonia",
+        "Gordonia terrae"
+    ],
+    "Gordonia westfalica NRRL B-24152": [
+        "Gordonia",
+        "Gordonia westfalica"
+    ],
+    "HER 414": [
+        null,
+        null
+    ],
+    "Haemophilus influenzae": [
+        "Haemophilus",
+        "Haemophilus influenzae"
+    ],
+    "Haemophilus parasuis 34086b": [
+        "Glaesserella",
+        "Glaesserella parasuis"
+    ],
+    "Haloarcula hispanica": [
+        "Haloarcula",
+        "Haloarcula hispanica"
+    ],
+    "Halomonas aquamarina": [
+        "Halomonas",
+        "Halomonas aquamarina"
+    ],
+    "Halomonas ventosae": [
+        "Halomonas",
+        "Halomonas ventosae"
+    ],
+    "Halorubrum coriense": [
+        "Halorubrum",
+        "Halorubrum coriense"
+    ],
+    "Helicobacter pylori": [
+        "Helicobacter",
+        "Helicobacter pylori"
+    ],
+    "Helicobacter pylori B45": [
+        "Helicobacter",
+        "Helicobacter pylori"
+    ],
+    "Helicobacter pylori strain 3401": [
+        "Helicobacter",
+        "Helicobacter pylori"
+    ],
+    "Helicobacter pylori strain KMT83": [
+        "Helicobacter",
+        "Helicobacter pylori"
+    ],
+    "Homo sapiens": [
+        "Homo",
+        "Homo sapiens"
+    ],
+    "Hydrogenobaculum": [
+        "Hydrogenobaculum",
+        null
+    ],
+    "Idiomarinaceae bacterium M2-2": [
+        null,
+        null
+    ],
+    "Idiomarinaceae bacterium N2-2": [
+        null,
+        null
+    ],
+    "Klebsiella oxytoca": [
+        "Klebsiella",
+        "Klebsiella oxytoca"
+    ],
+    "Klebsiella oxytoca ATCC 43863": [
+        "Klebsiella",
+        "Klebsiella oxytoca"
+    ],
+    "Klebsiella pneumoniae": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae 07RAFM-KPN-503": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae 07RAFM-KPN-552": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae 151522": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae 51503": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae ATCC 10031": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae B-7850": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae BUC": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae H151440672": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae JDM777": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae K2044": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KCTC 2242": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KH43": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KL49": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KP 1513": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KP/01": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KP36": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KPB463": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae KSM 5-1": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae Kp-48": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae M-9": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae NTUH-K44": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae ST101": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae W15": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC15/09/U2874": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC15/11/N137": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC15/11/N53": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC15/11/N54": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC15/11/N98": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC16/01/N133": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae YMC16/01/N141": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae subsp. ozaenae K5": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae subsp. pneumoniae KKBO-1": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella pneumoniae subsp. pneumoniae L4-FAA5 (capsular type K2)": [
+        "Klebsiella",
+        "Klebsiella pneumoniae"
+    ],
+    "Klebsiella sp.": [
+        "Klebsiella",
+        "Klebsiella sp."
+    ],
+    "Klebsiella sp. 390": [
+        "Klebsiella",
+        "Klebsiella sp. 390"
+    ],
+    "Kluyvera cryocrescens": [
+        "Kluyvera",
+        "Kluyvera cryocrescens"
+    ],
+    "Lactobacillus": [
+        "Lactobacillus",
+        null
+    ],
+    "Lactobacillus brevis ATCC 367": [
+        "Lactobacillus",
+        "Lactobacillus brevis"
+    ],
+    "Lactobacillus brevis SA-C12": [
+        "Lactobacillus",
+        "Lactobacillus brevis"
+    ],
+    "Lactobacillus casei": [
+        "Lactobacillus",
+        "Lactobacillus casei"
+    ],
+    "Lactobacillus casei ATCC 393": [
+        "Lactobacillus",
+        "Lactobacillus casei"
+    ],
+    "Lactobacillus casei BL23": [
+        "Lactobacillus",
+        "Lactobacillus casei"
+    ],
+    "Lactobacillus casei W56": [
+        "Lactobacillus",
+        "Lactobacillus casei"
+    ],
+    "Lactobacillus delbrueckii": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii ATCC 11842": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. bulgaricus": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. bulgaricus 21:328": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. lactis": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. lactis strain ATCC 15808": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. lactis strain LL78": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus delbrueckii subsp. lactis strains LKT and ATCC 15808": [
+        "Lactobacillus",
+        "Lactobacillus delbrueckii"
+    ],
+    "Lactobacillus fermentum": [
+        "Lactobacillus",
+        "Lactobacillus fermentum"
+    ],
+    "Lactobacillus fermentum strain YB5": [
+        "Lactobacillus",
+        "Lactobacillus fermentum"
+    ],
+    "Lactobacillus gasseri": [
+        "Lactobacillus",
+        "Lactobacillus gasseri"
+    ],
+    "Lactobacillus gasseri ADH": [
+        "Lactobacillus",
+        "Lactobacillus gasseri"
+    ],
+    "Lactobacillus jensenii": [
+        "Lactobacillus",
+        "Lactobacillus jensenii"
+    ],
+    "Lactobacillus paracasei": [
+        "Lactobacillus",
+        "Lactobacillus paracasei"
+    ],
+    "Lactobacillus paracasei 27092": [
+        "Lactobacillus",
+        "Lactobacillus paracasei"
+    ],
+    "Lactobacillus paracasei 27139": [
+        "Lactobacillus",
+        "Lactobacillus paracasei"
+    ],
+    "Lactobacillus pentosus KLDS1.0413; Lactobacillus plantarum KLDS1.0344": [
+        "Lactobacillus",
+        "Lactobacillus pentosus"
+    ],
+    "Lactobacillus plantarum": [
+        "Lactobacillus",
+        "Lactobacillus plantarum"
+    ],
+    "Lactobacillus plantarum ATCC 8014": [
+        "Lactobacillus",
+        "Lactobacillus plantarum"
+    ],
+    "Lactobacillus plantarum IMAU10120": [
+        "Lactobacillus",
+        "Lactobacillus plantarum"
+    ],
+    "Lactobacillus plantarum PM411": [
+        "Lactobacillus",
+        "Lactobacillus plantarum"
+    ],
+    "Lactobacillus rhamnosus": [
+        "Lactobacillus",
+        "Lactobacillus rhamnosus"
+    ],
+    "Lactobacillus rhamnosus strain M1": [
+        "Lactobacillus",
+        "Lactobacillus rhamnosus"
+    ],
+    "Lactobacillus sp.": [
+        "Lactobacillus",
+        "Lactobacillus sp."
+    ],
+    "Lactococcus": [
+        "Lactococcus",
+        null
+    ],
+    "Lactococcus garvieae": [
+        "Lactococcus",
+        "Lactococcus garvieae"
+    ],
+    "Lactococcus garvieae INS1": [
+        "Lactococcus",
+        "Lactococcus garvieae"
+    ],
+    "Lactococcus garvieae Lg2": [
+        "Lactococcus",
+        "Lactococcus garvieae"
+    ],
+    "Lactococcus garvieae strain TB25": [
+        "Lactococcus",
+        "Lactococcus garvieae"
+    ],
+    "Lactococcus lactis": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis 3107": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis C10": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis DGCC11032": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis DGCC7271": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis F7/2": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis IL1403": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis P335": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis SMQ-388": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis SMQ-404": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis SMQ-450": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis SMQ-562": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis SMQ-86": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis strain ML8": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. cremoris": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. cremoris CA-49": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. cremoris DPC6860": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. cremoris MG1363": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. cremoris SMQ-404": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus lactis subsp. lactis Il1403": [
+        "Lactococcus",
+        "Lactococcus lactis"
+    ],
+    "Lactococcus sp. 936": [
+        "Lactococcus",
+        null
+    ],
+    "Leclercia adecarboxylata P10164": [
+        "Leclercia",
+        "Leclercia adecarboxylata"
+    ],
+    "Lelliottia sp. GL2": [
+        "Lelliottia",
+        "Lelliottia sp. GL2"
+    ],
+    "Leptolyngbya foveolarum": [
+        "Leptolyngbya",
+        "Leptolyngbya foveolarum"
+    ],
+    "Leptospira inadai M34/99 serogroup Lyme": [
+        "Leptospira",
+        "Leptospira inadai"
+    ],
+    "Leuconostoc mesenteroides 1-A4": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides LN05": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides LN25": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. dextranicum A1 (LMGT 3752)": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. mesenteroides C19A": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. mesenteroides C19B": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. mesenteroides D4b": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. mesenteroides D6a": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc mesenteroides subsp. mesenteroides L79-1": [
+        "Leuconostoc",
+        "Leuconostoc mesenteroides"
+    ],
+    "Leuconostoc oenos": [
+        "Oenococcus",
+        "Oenococcus oeni"
+    ],
+    "Leuconostoc pseudomesenteroides BM2": [
+        "Leuconostoc",
+        "Leuconostoc pseudomesenteroides"
+    ],
+    "Leuconostoc pseudomesenteroides LN02": [
+        "Leuconostoc",
+        "Leuconostoc pseudomesenteroides"
+    ],
+    "Leuconostoc pseudomesenteroides R707": [
+        "Leuconostoc",
+        "Leuconostoc pseudomesenteroides"
+    ],
+    "Listeria": [
+        "Listeria",
+        null
+    ],
+    "Listeria monocytogenes": [
+        "Listeria",
+        "Listeria monocytogenes"
+    ],
+    "Listeria monocytogenes CRIFS culture collection code: C519": [
+        "Listeria",
+        "Listeria monocytogenes"
+    ],
+    "Listeria monocytogenes ScottA": [
+        "Listeria",
+        "Listeria monocytogenes"
+    ],
+    "Listeria sp.": [
+        "Listeria",
+        "Listeria sp."
+    ],
+    "Listeria weihenstephanensis WS 4560": [
+        "Listeria",
+        "Listeria weihenstephanensis"
+    ],
+    "Listonella pelagia": [
+        "Vibrio",
+        "Vibrio pelagius"
+    ],
+    "Lysinibacillus sphaericus C3-41": [
+        "Lysinibacillus",
+        "Lysinibacillus sphaericus"
+    ],
+    "Mannheimia haemolytica": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 1127A serotype A2": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 1152A serotype A6": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 1152AP serotype 6": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 2256A serotype A1": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 3927A": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 3927A serotype A6": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 535A serotype A1": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica 587A serotype A2": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica biovar 1 serotype A1; ST1": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Mannheimia haemolytica strain ATCC BAA-410 serotype A1; ST1": [
+        "Mannheimia",
+        "Mannheimia haemolytica"
+    ],
+    "Marinobacter": [
+        "Marinobacter",
+        null
+    ],
+    "Marinomonas mediterranea": [
+        "Marinomonas",
+        "Marinomonas mediterranea"
+    ],
+    "Marinomonas sp.": [
+        "Marinomonas",
+        "Marinomonas sp."
+    ],
+    "Marinomonas sp. IMCC12026": [
+        "Marinomonas",
+        null
+    ],
+    "Methanobacterium thermoautotrophicum": [
+        "Methanothermobacter",
+        "Methanothermobacter thermautotrophicus"
+    ],
+    "Methanobacterium thermoautotrophicum Marburg": [
+        "Methanothermobacter",
+        "Methanothermobacter thermautotrophicus"
+    ],
+    "Methylophilaceae bacterium IMCC19250": [
+        null,
+        null
+    ],
+    "Microbacterium foliorum NRRL B-24224": [
+        "Microbacterium",
+        "Microbacterium foliorum"
+    ],
+    "Microbacterium foliorum NRRL B-24224 SEA": [
+        "Microbacterium",
+        "Microbacterium foliorum"
+    ],
+    "Microbacterium foliorum NRRL B-24224-SEA": [
+        "Microbacterium",
+        "Microbacterium foliorum"
+    ],
+    "Microbacterium nematophilum": [
+        "Microbacterium",
+        "Microbacterium nematophilum"
+    ],
+    "Microbacterium nematophilum CBX102": [
+        "Microbacterium",
+        "Microbacterium nematophilum"
+    ],
+    "Microbacterium oxydans": [
+        "Microbacterium",
+        "Microbacterium oxydans"
+    ],
+    "Microbacterium paraoxydans NWU1": [
+        "Microbacterium",
+        "Microbacterium paraoxydans"
+    ],
+    "Microbacterium terrae NRRL B-24214": [
+        "Microbacterium",
+        "Microbacterium terrae"
+    ],
+    "Microcystis aeruginosa": [
+        "Microcystis",
+        "Microcystis aeruginosa"
+    ],
+    "Moraxella catarrhalis": [
+        "Moraxella",
+        "Moraxella catarrhalis"
+    ],
+    "Morganella morganii": [
+        "Morganella",
+        "Morganella morganii"
+    ],
+    "Morganella morganii IME1369": [
+        "Morganella",
+        "Morganella morganii"
+    ],
+    "Morganella sp.": [
+        "Morganella",
+        "Morganella sp. (in: Bacteria)"
+    ],
+    "Mycobacteriophage smegmatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium": [
+        "Mycobacterium",
+        null
+    ],
+    "Mycobacterium abscessus subsp. bolletii F1725": [
+        "Mycobacteroides",
+        "Mycobacteroides abscessus"
+    ],
+    "Mycobacterium abscessus subsp. bolletii strain F1660": [
+        "Mycobacteroides",
+        "Mycobacteroides abscessus"
+    ],
+    "Mycobacterium avium": [
+        "Mycobacterium",
+        "Mycobacterium avium"
+    ],
+    "Mycobacterium avium subsp. paratuberculosis ATCC19698": [
+        "Mycobacterium",
+        "Mycobacterium avium"
+    ],
+    "Mycobacterium phlei": [
+        "Mycolicibacterium",
+        "Mycolicibacterium phlei"
+    ],
+    "Mycobacterium phlei GTIS10": [
+        "Mycolicibacterium",
+        "Mycolicibacterium phlei"
+    ],
+    "Mycobacterium smegamatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegamtis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatic mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis MC2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis mc#155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis mc155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis mc2 115": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis mc2155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatis str. MC2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium smegmatismc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterium tuberculosis": [
+        "Mycobacterium",
+        "Mycobacterium tuberculosis"
+    ],
+    "Mycobacterium tuberculosis mc2 7000": [
+        "Mycobacterium",
+        "Mycobacterium tuberculosis"
+    ],
+    "Mycobacterium tuberculosis; Mycobacterium smegmatis": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacteruim smegmatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycobacterum smegmatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "Mycoplasma arthritidis": [
+        "Mycoplasma",
+        "Mycoplasma arthritidis"
+    ],
+    "Mycoplasma pulmonis": [
+        "Mycoplasma",
+        "Mycoplasma pulmonis"
+    ],
+    "Mycoplasma sp.": [
+        "Mycoplasma",
+        "Mycoplasma sp."
+    ],
+    "Myxococcus xanthus strain DK883": [
+        "Myxococcus",
+        "Myxococcus xanthus"
+    ],
+    "Natrialba magadii": [
+        "Natrialba",
+        "Natrialba magadii"
+    ],
+    "Nitratiruptor sp. SB155-2": [
+        "Nitratiruptor",
+        "Nitratiruptor sp. SB155-2"
+    ],
+    "Nitrincola sp. M3-16": [
+        "Nitrincola",
+        "Nitrincola sp. 1M3-16"
+    ],
+    "Nocardia brasiliensis": [
+        "Nocardia",
+        "Nocardia brasiliensis"
+    ],
+    "Nodularia sp. AV2": [
+        "Nodularia",
+        null
+    ],
+    "Nostoc sp. PCC7210": [
+        "Nostoc",
+        null
+    ],
+    "Ochrobactrum anthropi": [
+        "Ochrobactrum",
+        "Ochrobactrum anthropi"
+    ],
+    "Ochrobactrum intermedium": [
+        "Ochrobactrum",
+        "Ochrobactrum intermedium"
+    ],
+    "Oenococcus oeni IOEBS277": [
+        "Oenococcus",
+        "Oenococcus oeni"
+    ],
+    "Oenococcus oeni Sarco S11": [
+        "Oenococcus",
+        "Oenococcus oeni"
+    ],
+    "Oenococcus oeni Sarco S13": [
+        "Oenococcus",
+        "Oenococcus oeni"
+    ],
+    "Paenibacillus larvae": [
+        "Paenibacillus",
+        "Paenibacillus larvae"
+    ],
+    "Paenibacillus larvae ATCC 25747": [
+        "Paenibacillus",
+        "Paenibacillus larvae"
+    ],
+    "Paenibacillus larvae ATCC 9545": [
+        "Paenibacillus",
+        "Paenibacillus larvae"
+    ],
+    "Paenibacillus larvae H23": [
+        "Paenibacillus",
+        "Paenibacillus larvae"
+    ],
+    "Paenibacillus larvae NRRL 2605": [
+        "Paenibacillus",
+        "Paenibacillus larvae"
+    ],
+    "Pantoea agglomerans": [
+        "Pantoea",
+        "Pantoea agglomerans"
+    ],
+    "Parabacteroides distasonis": [
+        "Parabacteroides",
+        "Parabacteroides distasonis"
+    ],
+    "Parabacteroides merdae": [
+        "Parabacteroides",
+        "Parabacteroides merdae"
+    ],
+    "Paracoccus marcusii JL-65": [
+        "Paracoccus",
+        "Paracoccus marcusii"
+    ],
+    "Paracoccus sp. HS3": [
+        "Paracoccus",
+        null
+    ],
+    "Pasteurella multocida": [
+        "Pasteurella",
+        "Pasteurella multocida"
+    ],
+    "Pasteurella multocida B:2": [
+        "Pasteurella",
+        "Pasteurella multocida"
+    ],
+    "Pectobacterium atrosepticum": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium atrosepticum DSM 18077": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium atrosepticum DSM 30186": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium atrosepticum DSM18077": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium atrosepticum PB72": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium atrosepticum SCRI1043": [
+        "Pectobacterium",
+        "Pectobacterium atrosepticum"
+    ],
+    "Pectobacterium carotovorum": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum 27": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum DSM30170": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum PB29": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum PB38": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum PB69": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium carotovorum subsp. carotovorum strain CBBL19-1-37": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Pectobacterium sp.": [
+        "Pectobacterium",
+        "Pectobacterium sp."
+    ],
+    "Pectobacterium sp. and Dickeya sp.": [
+        "Pectobacterium",
+        "Pectobacterium sp."
+    ],
+    "Pectobacterium wasabiae PB20": [
+        "Pectobacterium",
+        "Pectobacterium wasabiae"
+    ],
+    "Pectobactorium corotovorum subsp. carotovorum 62a": [
+        "Pectobacterium",
+        "Pectobacterium carotovorum"
+    ],
+    "Peptoclostridium difficile strain DSM1296": [
+        "Clostridioides",
+        "Clostridioides difficile"
+    ],
+    "Persicivirga sp. IMCC12024": [
+        "Nonlabens",
+        null
+    ],
+    "Phormidium": [
+        "Phormidium",
+        null
+    ],
+    "Phormidium foveolarum": [
+        "Leptolyngbya",
+        "Leptolyngbya foveolarum"
+    ],
+    "Phormidium sp. MIS-PhA": [
+        "Phormidium",
+        null
+    ],
+    "Planktothrix agardhii HAB637": [
+        "Planktothrix",
+        "Planktothrix agardhii"
+    ],
+    "Plesiomonas sp.": [
+        "Plesiomonas",
+        null
+    ],
+    "Pontimonas salivibrio CL-TW6": [
+        "Pontimonas",
+        "Pontimonas salivibrio"
+    ],
+    "Prochlorococcus marinus MIT9515": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Prochlorococcus sp. MED4": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Prochlorococcus sp. MIT9303": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Prochlorococcus sp. MIT9515": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Prochlorococcus sp. NATL1A": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Prochlorococcus sp. NATL2A": [
+        "Prochlorococcus",
+        "Prochlorococcus marinus"
+    ],
+    "Propionibacterium acnes": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Propionibacterium acnes A1-14": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Propionibacterium acnes ATCC 11828": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Propionibacterium acnes ATCC 6919": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Propionibacterium acnes#ATCC 6919": [
+        "Cutibacterium",
+        "Cutibacterium acnes"
+    ],
+    "Propionibacterium freudenreichii": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "Propionibacterium freudenreichii TL110": [
+        "Propionibacterium",
+        "Propionibacterium freudenreichii"
+    ],
+    "Proteus mirabilis": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis 414": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis 417": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis 73": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis 821": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis CEMTC 1726": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis strain 824 (LMMB NIBOCH collection)": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus mirabilis strain 922 (LMMB NIBOCH collection)": [
+        "Proteus",
+        "Proteus mirabilis"
+    ],
+    "Proteus penneri": [
+        "Proteus",
+        "Proteus penneri"
+    ],
+    "Proteus vulgaris": [
+        "Proteus",
+        "Proteus vulgaris"
+    ],
+    "Providencia sp.": [
+        "Providencia",
+        "Providencia sp."
+    ],
+    "Providencia stuartii isolate MRSN 2154": [
+        "Providencia",
+        "Providencia stuartii"
+    ],
+    "Pseduomonas aeruginosa": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudcmonas fluorescens SW-3": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudoalteromonas": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudoalteromonas atlantica": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas atlantica"
+    ],
+    "Pseudoalteromonas marina": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas marina"
+    ],
+    "Pseudoalteromonas marina CL-E25": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas marina"
+    ],
+    "Pseudoalteromonas marina mano4": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas marina"
+    ],
+    "Pseudoalteromonas phenolica": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas phenolica"
+    ],
+    "Pseudoalteromonas sp.": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas sp."
+    ],
+    "Pseudoalteromonas sp. 6751": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudoalteromonas sp. BH357": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudoalteromonas sp. Bq0": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas sp. Bq0"
+    ],
+    "Pseudoalteromonas sp. H105": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas sp. H105"
+    ],
+    "Pseudoalteromonas sp. H6": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas sp. H6"
+    ],
+    "Pseudoalteromonas sp. RHS-str. 402": [
+        "Pseudoalteromonas",
+        "Pseudoalteromonas sp. RHS-str.402"
+    ],
+    "Pseudoalteromonas sp. str. H100": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudoalteromonas sp. str. H105": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudoalteromonas sp. str. H71": [
+        "Pseudoalteromonas",
+        null
+    ],
+    "Pseudomonas": [
+        "Pseudomonas",
+        null
+    ],
+    "Pseudomonas aeruginosa": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa (strain PA158)": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa 130": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa ATCC 15692": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa C2-10": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa CHA": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa DLG": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa IME180": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa Kutter": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA 158": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA1": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA14": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA25": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA32": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PA5-1-1": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAER1_9N": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAER2_24": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAER3_44": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAK": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAO": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAO1": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAO1 (ATCC 15692)": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAO1R": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa PAS429": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa Ps33": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa UCBPP-PA14": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa USM AR2": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa WH-SGI-V-07173": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa WH-SGI-V-07174": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa WH-SGI-V-07651": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa YMC/01/01/P52": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa YMC11/02/R656": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa YMC11/11/R1836": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa clinical isolate PA21": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa clinical isolate PA31": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa clinical strain TJC422": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa strain PAO1": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruginosa strain PAO9505": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas aeruignosa PA14": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "Pseudomonas agarici NCPPB 2472": [
+        "Pseudomonas",
+        "Pseudomonas agarici"
+    ],
+    "Pseudomonas chlororaphis": [
+        "Pseudomonas",
+        "Pseudomonas chlororaphis"
+    ],
+    "Pseudomonas fluorescens": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens ATCC 13525": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens BIM B-582; Pseudomonas putida BIM B-68; Pseudomonas putida BIM B-159": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens Pf1.1": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens SA1": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens SBW25": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas fluorescens W-6": [
+        "Pseudomonas",
+        "Pseudomonas fluorescens"
+    ],
+    "Pseudomonas oryzihabitans J81P": [
+        "Pseudomonas",
+        "Pseudomonas oryzihabitans"
+    ],
+    "Pseudomonas putida": [
+        "Pseudomonas",
+        "Pseudomonas putida"
+    ],
+    "Pseudomonas putida PpG1": [
+        "Pseudomonas",
+        "Pseudomonas putida"
+    ],
+    "Pseudomonas putida YMC11/06/C171": [
+        "Pseudomonas",
+        "Pseudomonas putida"
+    ],
+    "Pseudomonas putida var. Manila": [
+        "Pseudomonas",
+        "Pseudomonas putida"
+    ],
+    "Pseudomonas sp.": [
+        "Pseudomonas",
+        "Pseudomonas sp."
+    ],
+    "Pseudomonas sp. 1-1-1b": [
+        "Pseudomonas",
+        "Pseudomonas sp. 1-1-1b"
+    ],
+    "Pseudomonas sp. ANT_H14": [
+        "Pseudomonas",
+        null
+    ],
+    "Pseudomonas sp. CT12": [
+        "Pseudomonas",
+        null
+    ],
+    "Pseudomonas sp. CTX2": [
+        "Pseudomonas",
+        null
+    ],
+    "Pseudomonas syringae": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas syringae pv. actinidiae": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas syringae pv. actinidiae ICMP 18800": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas syringae pv. actinidiae KBE9": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas syringae pv. avii": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas syringae pv. phaseolicola": [
+        "Pseudomonas",
+        "Pseudomonas savastanoi"
+    ],
+    "Pseudomonas syringae pv. porri LMG 28495": [
+        "Pseudomonas",
+        "Pseudomonas syringae"
+    ],
+    "Pseudomonas tolaasii": [
+        "Pseudomonas",
+        "Pseudomonas tolaasii"
+    ],
+    "Pseudomonas tolaasii LMG 2342": [
+        "Pseudomonas",
+        "Pseudomonas tolaasii"
+    ],
+    "Pseudomonas tolaasii NCPPB 2192": [
+        "Pseudomonas",
+        "Pseudomonas tolaasii"
+    ],
+    "Psychrobacter sp. MV2": [
+        "Psychrobacter",
+        "Psychrobacter sp. MV2"
+    ],
+    "Puniceicoccales sp. IMCC8625": [
+        "Puniceibacterium",
+        null
+    ],
+    "Ralstonia pickettii": [
+        "Ralstonia",
+        "Ralstonia pickettii"
+    ],
+    "Ralstonia solanacearum": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Ralstonia solanacearum Coatlan": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Ralstonia solanacearum TB15-14": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Ralstonia solanacearum TB15-15": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Ralstonia solanacearum UW551": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Ralstonia solanacearum mc1": [
+        "Ralstonia",
+        "Ralstonia solanacearum"
+    ],
+    "Raoultella ornithinolytica": [
+        "Raoultella",
+        "Raoultella ornithinolytica"
+    ],
+    "Rathayibacter toxicus": [
+        "Rathayibacter",
+        "Rathayibacter toxicus"
+    ],
+    "Rhizobium etli Brasil5": [
+        "Rhizobium",
+        "Rhizobium phaseoli"
+    ],
+    "Rhizobium etli CFN42": [
+        "Rhizobium",
+        "Rhizobium etli"
+    ],
+    "Rhizobium etli GR56": [
+        "Rhizobium",
+        "Rhizobium etli"
+    ],
+    "Rhizobium etli kim5": [
+        "Rhizobium",
+        "Rhizobium sp. Kim5"
+    ],
+    "Rhizobium gallicum SO14B-4(6)": [
+        "Rhizobium",
+        "Rhizobium gallicum"
+    ],
+    "Rhizobium leguminosarum biovar viciae 3841": [
+        "Rhizobium",
+        "Rhizobium leguminosarum"
+    ],
+    "Rhizobium leguminosarum biovar viciae VF39": [
+        "Rhizobium",
+        "Rhizobium leguminosarum"
+    ],
+    "Rhizobium leguminosarum strain F1": [
+        "Rhizobium",
+        "Rhizobium leguminosarum"
+    ],
+    "Rhodobacter capsulatus SB1003": [
+        "Rhodobacter",
+        "Rhodobacter capsulatus"
+    ],
+    "Rhodobacter capsulatus YW1": [
+        "Rhodobacter",
+        "Rhodobacter capsulatus"
+    ],
+    "Rhodococcus equi": [
+        "Rhodococcus",
+        "Rhodococcus hoagii"
+    ],
+    "Rhodococcus erythropolis": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "Rhodococcus erythropolis NRRL B-1574": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "Rhodococcus erythropolis RIA 643": [
+        "Rhodococcus",
+        "Rhodococcus erythropolis"
+    ],
+    "Rhodococcus globerulus": [
+        "Rhodococcus",
+        "Rhodococcus globerulus"
+    ],
+    "Rhodococcus opacus PD631": [
+        "Rhodococcus",
+        "Rhodococcus opacus"
+    ],
+    "Rhodococcus rhodochrous str. Rrho39": [
+        "Rhodococcus",
+        "Rhodococcus rhodochrous"
+    ],
+    "Rhodoferax sp. IMCC26218": [
+        null,
+        null
+    ],
+    "Rhodothermus marinus": [
+        "Rhodothermus",
+        "Rhodothermus marinus"
+    ],
+    "Rhodovulum sp. P5": [
+        "Rhodovulum",
+        "Rhodovulum sp. P5"
+    ],
+    "Riemerella anatipestifer": [
+        "Riemerella",
+        "Riemerella anatipestifer"
+    ],
+    "Roseobacter denitrificans OCh114": [
+        "Roseobacter",
+        "Roseobacter denitrificans"
+    ],
+    "Ruegeria mobilis": [
+        "Epibacterium",
+        "Epibacterium mobile"
+    ],
+    "Ruegeria pomeroyi DSS-3": [
+        "Ruegeria",
+        "Ruegeria pomeroyi"
+    ],
+    "Saccharomonospora sp.": [
+        "Saccharomonospora",
+        "Saccharomonospora sp."
+    ],
+    "Salicola sp. PV4": [
+        "Salicola",
+        "Salicola sp. PV4"
+    ],
+    "Salinivibrio costicola": [
+        "Salinivibrio",
+        "Salinivibrio costicola"
+    ],
+    "Salinivibrio sp.": [
+        "Salinivibrio",
+        "Salinivibrio sp."
+    ],
+    "Salisaeta sp. SP9-1": [
+        "Salisaeta",
+        "Salisaeta sp. SP9-1"
+    ],
+    "Salmonella": [
+        "Salmonella",
+        null
+    ],
+    "Salmonella Newport strain C398": [
+        "Salmonella",
+        null
+    ],
+    "Salmonella Typhimurium ATCC 14028": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella Typhimurium; Escherichia coli": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enteria serovar typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica Hadar": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica Infantis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica Typhimurium LT2c": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Enteritidis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Kentucky": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Paratyphi A": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Pullorum 96116": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhi": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhi Vi": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhimurium ATCC 14028": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhimurium MTCC 98": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhimurium SL1344": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhimurium strain LT2": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar Typhiurium strain LT2": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica serovar typhimurium LT2C": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. Enteritidis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. Typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. diarizonae 519/03 IIIb": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. diarizonae 89/00 IIIb": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica Serovar Typhimurium strain DSM 17058": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Anatum": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Brandenburg": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Bredney": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Enteritidis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Enteritidis str. LK5": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Gallinarum": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Gallinarum biovar Gallinarum": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Heidelberg": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Indiana J46": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Newport": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Pullorum": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Rissen": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Senftenberg ATCC 43845": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Shubra": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Typhi": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enterica serovar Typhimurium strain LT2": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. enteritidis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. salamae 10/99 II": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. salamae 200/01 II": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. salamae 241/01 II": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica subsp. salamae 244/03 II": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enterica sv. typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enteritidis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enteritidis 821": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella enteritidis C417": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella gallinarum": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella infantis": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella paratyphi A": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella paratyphi A CMCC50973": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella paratyphi B": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella pullorum SP1": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella serovar Haardt": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella serovar Winston": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella sp.": [
+        "Salmonella",
+        "Salmonella sp."
+    ],
+    "Salmonella sp. and Escherichia coli O157": [
+        "Salmonella",
+        "Salmonella sp."
+    ],
+    "Salmonella typhi O": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella typhimurium": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella typhimurium ATCC 13111": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella typhimurium ATCC 13311": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella typhimurium DT104": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Salmonella typhimurium LT2": [
+        "Salmonella",
+        "Salmonella enterica"
+    ],
+    "Selenomonas ruminantium ML12": [
+        "Selenomonas",
+        "Selenomonas ruminantium"
+    ],
+    "Serratia marcescens": [
+        "Serratia",
+        "Serratia marcescens"
+    ],
+    "Serratia marcescens UCC2017": [
+        "Serratia",
+        "Serratia marcescens"
+    ],
+    "Serratia marcescens wk2050": [
+        "Serratia",
+        "Serratia marcescens"
+    ],
+    "Serratia rubidaea": [
+        "Serratia",
+        "Serratia rubidaea"
+    ],
+    "Serratia rubidaea 1122": [
+        "Serratia",
+        "Serratia rubidaea"
+    ],
+    "Serratia sp.": [
+        "Serratia",
+        "Serratia sp."
+    ],
+    "Serratia sp. ATCC 39006": [
+        "Serratia",
+        "Serratia sp. ATCC 39006"
+    ],
+    "Shewanella baltica": [
+        "Shewanella",
+        "Shewanella baltica"
+    ],
+    "Shewanella fidelis 3313": [
+        "Shewanella",
+        "Shewanella fidelis"
+    ],
+    "Shewanella putrefaciens": [
+        "Shewanella",
+        "Shewanella putrefaciens"
+    ],
+    "Shigella boydii": [
+        "Shigella",
+        "Shigella boydii"
+    ],
+    "Shigella boydii ATCC 35966": [
+        "Shigella",
+        "Shigella boydii"
+    ],
+    "Shigella boydii; Shigella flexneri": [
+        "Shigella",
+        "Shigella boydii"
+    ],
+    "Shigella dysenteriae, Escherichia coli B": [
+        "Shigella",
+        "Shigella dysenteriae"
+    ],
+    "Shigella flexneri": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri 17": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri 2a": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri 37": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri ATCC 12022": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri ATCC 2587": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri serotype 1a strain 019": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri serotype 4a": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri serotype 4av": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri serotype 7a": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri, Shigella boydii, Shigella dysenteriae": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri, Shigella boydii, Shigella dysenteriae, Shigella sonnei": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri; Escherichia coli B": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella flexneri; Shigella sonnei; Escherichia coli K12": [
+        "Shigella",
+        "Shigella flexneri"
+    ],
+    "Shigella sonnei": [
+        "Shigella",
+        "Shigella sonnei"
+    ],
+    "Shigella sonnei 75/02": [
+        "Shigella",
+        "Shigella sonnei"
+    ],
+    "Shigella sonnei 866": [
+        "Shigella",
+        "Shigella sonnei"
+    ],
+    "Shigella sonnei ATCC 25931": [
+        "Shigella",
+        "Shigella sonnei"
+    ],
+    "Shigella sonnei IB 707": [
+        "Shigella",
+        "Shigella sonnei"
+    ],
+    "Shigella sp.": [
+        "Shigella",
+        "Shigella sp."
+    ],
+    "Shigella sp. SF11_50403": [
+        "Shigella",
+        null
+    ],
+    "Sinorhizobium meliloti": [
+        "Sinorhizobium",
+        "Sinorhizobium meliloti"
+    ],
+    "Sinorhizobium meliloti 2011": [
+        "Sinorhizobium",
+        "Sinorhizobium meliloti"
+    ],
+    "Sinorhizobium sp. LM21": [
+        "Sinorhizobium",
+        "Sinorhizobium sp. LM21"
+    ],
+    "Skermania piniformis NM40": [
+        "Skermania",
+        "Skermania piniformis"
+    ],
+    "Sodalis glossinidius": [
+        "Sodalis",
+        "Sodalis glossinidius"
+    ],
+    "Sodalis glossinidius str. 'morsitans'": [
+        "Sodalis",
+        "Sodalis glossinidius"
+    ],
+    "Sphingobium sp. IP1": [
+        "Sphingobium",
+        "Sphingobium sp. IP1"
+    ],
+    "Sphingomonas paucimobilis, Felix d'Herelle Reference Center for Phages host #1398": [
+        "Sphingomonas",
+        "Sphingomonas paucimobilis"
+    ],
+    "Spiroplasma": [
+        "Spiroplasma",
+        null
+    ],
+    "Spiroplasma citri": [
+        "Spiroplasma",
+        "Spiroplasma citri"
+    ],
+    "Spiroplasma melliferum": [
+        "Spiroplasma",
+        "Spiroplasma melliferum"
+    ],
+    "Staphylococcus": [
+        "Staphylococcus",
+        null
+    ],
+    "Staphylococcus aureus": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus (phage propagation strain 47)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus 0414": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus 1": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus 100": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus 5sau489": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus 644": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus ATCC 12600": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus ATCC 25923": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus ATCC 29213": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus ATCC 43300": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus ATCC 49775": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus BCP88": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus CCM 4028": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus CCM 4890": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus CN125": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus E-1": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus GN1 (PVL-positive ST50 methicillin-susceptible strain)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus HIP07256": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus IME1346": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus IME1361": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus IME1364": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus JP8361": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus JP8362": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus JS201101": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus Jevons B": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus NCTC9789 (=PS80)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus NRL 08/236": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus NRL 09/166": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus NRS382": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus PS80": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus RN10359": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus RN4220": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus Sau119": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus XN108": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus YZ25": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain 6409": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain 8325": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain NCTC9789 (=PS80)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain R19930": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain SA27": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus strain Z11778": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 15803 genotype ST72-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 16386 genotype ST22-MRSA-IVc (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 16663 genotype ST30-MRSA-IVc (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 16672 genotype ST59-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 16790 genotype ST93-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 17006 genotype ST80-MRSA IVc (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus 18790 genotype ST5-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus K25S genotype ST121-MSSA": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus NCTC 8325": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus RNSH95 genotype ST78-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus W17S genotype ST93-MSSA": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus str. Newman": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus strain ATCC 25923": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus aureus subsp. aureus strain WBG8287 genotype ST1-MRSA-IVa (2B)": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "Staphylococcus capitis": [
+        "Staphylococcus",
+        "Staphylococcus capitis"
+    ],
+    "Staphylococcus capitis IME1323": [
+        "Staphylococcus",
+        "Staphylococcus capitis"
+    ],
+    "Staphylococcus cohnii": [
+        "Staphylococcus",
+        "Staphylococcus cohnii"
+    ],
+    "Staphylococcus epidermidis": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis 14.1.R1": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis 36-1": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis 9142": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis ATCC 35983": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis CEMTC 2044": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis IME1348": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis LM1680": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis RP62A": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus epidermidis strain M129": [
+        "Staphylococcus",
+        "Staphylococcus epidermidis"
+    ],
+    "Staphylococcus haemolyticus": [
+        "Staphylococcus",
+        "Staphylococcus haemolyticus"
+    ],
+    "Staphylococcus haemolyticus IME1318": [
+        "Staphylococcus",
+        "Staphylococcus haemolyticus"
+    ],
+    "Staphylococcus haemolyticus IME1365": [
+        "Staphylococcus",
+        "Staphylococcus haemolyticus"
+    ],
+    "Staphylococcus hominis": [
+        "Staphylococcus",
+        "Staphylococcus hominis"
+    ],
+    "Staphylococcus pasteuri": [
+        "Staphylococcus",
+        "Staphylococcus pasteuri"
+    ],
+    "Staphylococcus pseudintermedius E140": [
+        "Staphylococcus",
+        "Staphylococcus pseudintermedius"
+    ],
+    "Staphylococcus pseudintermedius strain E045": [
+        "Staphylococcus",
+        "Staphylococcus pseudintermedius"
+    ],
+    "Staphylococcus pseudintermedius strain E139": [
+        "Staphylococcus",
+        "Staphylococcus pseudintermedius"
+    ],
+    "Staphylococcus pseudintermedius strain ED99": [
+        "Staphylococcus",
+        "Staphylococcus pseudintermedius"
+    ],
+    "Staphylococcus saprophyticus": [
+        "Staphylococcus",
+        "Staphylococcus saprophyticus"
+    ],
+    "Staphylococcus sciuri P575": [
+        "Staphylococcus",
+        "Staphylococcus sciuri"
+    ],
+    "Staphylococcus sciuri P612": [
+        "Staphylococcus",
+        "Staphylococcus sciuri"
+    ],
+    "Staphylococcus sciuri P723": [
+        "Staphylococcus",
+        "Staphylococcus sciuri"
+    ],
+    "Staphylococcus sciuri P879": [
+        "Staphylococcus",
+        "Staphylococcus sciuri"
+    ],
+    "Staphylococcus sp.": [
+        "Staphylococcus",
+        "Staphylococcus sp."
+    ],
+    "Staphylococcus sp. ATCC 25923": [
+        "Staphylococcus",
+        null
+    ],
+    "Staphylococcus sp. IME1354": [
+        "Staphylococcus",
+        null
+    ],
+    "Staphylococcus warneri IME1367": [
+        "Staphylococcus",
+        "Staphylococcus warneri"
+    ],
+    "Staphylococcus xylosus SMQ121": [
+        "Staphylococcus",
+        "Staphylococcus xylosus"
+    ],
+    "Stenotrophomonas maltophilia": [
+        "Stenotrophomonas",
+        "Stenotrophomonas maltophilia"
+    ],
+    "Stenotrophomonas maltophilia D1571": [
+        "Stenotrophomonas",
+        "Stenotrophomonas maltophilia"
+    ],
+    "Stenotrophomonas maltophilia D1585": [
+        "Stenotrophomonas",
+        "Stenotrophomonas maltophilia"
+    ],
+    "Stenotrophomonas maltophilia Khak84": [
+        "Stenotrophomonas",
+        "Stenotrophomonas maltophilia"
+    ],
+    "Stenotrophomonas sp.": [
+        "Stenotrophomonas",
+        "Stenotrophomonas sp."
+    ],
+    "Sterne 34F2 vaccine": [
+        null,
+        null
+    ],
+    "Streptococcus agalactiae": [
+        "Streptococcus",
+        "Streptococcus agalactiae"
+    ],
+    "Streptococcus dysgalactiae subsp. equisimilis NS3396": [
+        "Streptococcus",
+        "Streptococcus dysgalactiae"
+    ],
+    "Streptococcus equi": [
+        "Streptococcus",
+        "Streptococcus equi"
+    ],
+    "Streptococcus gordonii": [
+        "Streptococcus",
+        "Streptococcus gordonii"
+    ],
+    "Streptococcus mitis SF100": [
+        "Streptococcus",
+        "Streptococcus mitis"
+    ],
+    "Streptococcus mutans DPC6143": [
+        "Streptococcus",
+        "Streptococcus mutans"
+    ],
+    "Streptococcus mutans P42-SM": [
+        "Streptococcus",
+        "Streptococcus mutans"
+    ],
+    "Streptococcus oralis": [
+        "Streptococcus",
+        "Streptococcus oralis"
+    ],
+    "Streptococcus parauberis": [
+        "Streptococcus",
+        "Streptococcus parauberis"
+    ],
+    "Streptococcus pneumoniae": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 08B01757": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 08B03577": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 08B06220": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 08B07540": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 08B08535": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 09B05356": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 09B07772": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 09B10874": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 101": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 10B/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 10B00617": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 10B01058": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 10B04751": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 11F/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 12F/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 14/9": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 16A/1": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 17F/1": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 18C/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 18C/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 19A": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 1_2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 20/4": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 22F/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 23F/10": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 23F/5": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 24B/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 24F/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 32F/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 33B/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 33D/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 34/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 34/5": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 35B/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 43/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 44/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 47A/1": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 48/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 48/6": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 670": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 6A": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 6A/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 6B/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 70585": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 9L/3": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 9N/2": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae 9V/4": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae A45": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae AP200": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae Ala243": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae BHN167": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae BS458": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae D39": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae Finland6B-12": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae GA07228": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae GA13637": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae GA41317": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae GA41538": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae GA47373": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae P1121": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae Rx1": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae SA39": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae SA42": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae SA48": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae SA53": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae ST556": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae Sp02-1198": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae Sp07-2838": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae USA11": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae USA23": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae isolate 9908+13028": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae isolate DCC1738": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae isolate K13-810": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae strain DCC 1808": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pneumoniae strain R6": [
+        "Streptococcus",
+        "Streptococcus pneumoniae"
+    ],
+    "Streptococcus pyogenes": [
+        "Streptococcus",
+        "Streptococcus pyogenes"
+    ],
+    "Streptococcus pyogenes 2812A": [
+        "Streptococcus",
+        "Streptococcus pyogenes"
+    ],
+    "Streptococcus pyogenes K56; Streptococcus pyogenes ATCC 12204": [
+        "Streptococcus",
+        "Streptococcus pyogenes"
+    ],
+    "Streptococcus pyogenes MGAS315": [
+        "Streptococcus",
+        "Streptococcus pyogenes"
+    ],
+    "Streptococcus salivarius 57.I": [
+        "Streptococcus",
+        "Streptococcus salivarius"
+    ],
+    "Streptococcus sp.": [
+        "Streptococcus",
+        "Streptococcus sp."
+    ],
+    "Streptococcus sp. 'group C'": [
+        "Streptococcus",
+        "Streptococcus sp. 'group C'"
+    ],
+    "Streptococcus suis": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis 5218": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis 7917": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis 8067": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis 89/1591": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis D12": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis JH1301": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis LP081102": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis NJ2 serotype 9": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis NJ3": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis S10": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis SC070807": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis SS12": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis ST1": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis ZJ20091101": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus suis capsular serotype 2": [
+        "Streptococcus",
+        "Streptococcus suis"
+    ],
+    "Streptococcus thermophilus": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus CSK939": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus DGCC7854": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus SK778": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST47795": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST62990": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST64476": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST64713": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST64715": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST64892": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST64985": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST66564": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST66565": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST67009": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST67368": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST68757": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST69760": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus ST69763": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococcus thermophilus VA214": [
+        "Streptococcus",
+        "Streptococcus thermophilus CAG:236"
+    ],
+    "Streptococcus thermophilus VA460": [
+        "Streptococcus",
+        "Streptococcus thermophilus"
+    ],
+    "Streptococus agalactiae CH201102": [
+        "Streptococcus",
+        "Streptococcus agalactiae"
+    ],
+    "Streptococus agalactiae TZ201102": [
+        "Streptococcus",
+        "Streptococcus agalactiae"
+    ],
+    "Streptomyces albus; Streptomyces coelicolor": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "Streptomyces aureofaciens": [
+        "Kitasatospora",
+        "Kitasatospora aureofaciens"
+    ],
+    "Streptomyces avermitilis": [
+        "Streptomyces",
+        "Streptomyces avermitilis"
+    ],
+    "Streptomyces avermitilis ATCC 31267": [
+        "Streptomyces",
+        "Streptomyces avermitilis"
+    ],
+    "Streptomyces azureus NRRL B-2655": [
+        "Streptomyces",
+        "Streptomyces azureus"
+    ],
+    "Streptomyces cattleya MA4297; Streptomyces avermitilis": [
+        "Streptomyces",
+        "Streptomyces avermitilis"
+    ],
+    "Streptomyces coelicolor": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "Streptomyces coelicolor A3(2)": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "Streptomyces coelicolor M145; Streptomyces coelicolor J1929": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "Streptomyces flavovirens": [
+        "Streptomyces",
+        "Streptomyces flavovirens"
+    ],
+    "Streptomyces griseus ATCC 10137": [
+        "Streptomyces",
+        "Streptomyces griseus"
+    ],
+    "Streptomyces griseus subsp. griseus ATCC 10137": [
+        "Streptomyces",
+        "Streptomyces griseus"
+    ],
+    "Streptomyces hygroscopicus 10-22; Streptomyces coelicolor A3(2)": [
+        "Streptomyces",
+        "Streptomyces coelicolor"
+    ],
+    "Streptomyces lividans": [
+        "Streptomyces",
+        "Streptomyces lividans"
+    ],
+    "Streptomyces lividans JI 1326": [
+        "Streptomyces",
+        "Streptomyces lividans"
+    ],
+    "Streptomyces lividans JI1326": [
+        "Streptomyces",
+        "Streptomyces lividans"
+    ],
+    "Streptomyces scabiei RL-34": [
+        "Streptomyces",
+        "Streptomyces scabiei"
+    ],
+    "Streptomyces sp.": [
+        "Streptomyces",
+        "Streptomyces sp."
+    ],
+    "Streptomyces sp. 5a": [
+        "Streptomyces",
+        null
+    ],
+    "Streptomyces toxytricini NRRL B-5426": [
+        "Streptomyces",
+        "Streptomyces toxytricini"
+    ],
+    "Streptomyces venezuelae": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "Streptomyces venezuelae ATCC 10712": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "Streptomyces venezuelae ETH14630": [
+        "Streptomyces",
+        "Streptomyces venezuelae"
+    ],
+    "Streptomyces viridochromogenes DSM40736": [
+        "Streptomyces",
+        "Streptomyces viridochromogenes"
+    ],
+    "Streptomyces xanthochromogenes B-5410": [
+        "Streptomyces",
+        "Streptomyces xanthochromogenes"
+    ],
+    "Streptomyces xanthochromogenes NRRL B-5410": [
+        "Streptomyces",
+        "Streptomyces xanthochromogenes"
+    ],
+    "Sulfitobacter sp. CB2047": [
+        "Sulfitobacter",
+        "Sulfitobacter sp. CB2047"
+    ],
+    "Synechococcus": [
+        "Synechococcus",
+        null
+    ],
+    "Synechococcus sp.": [
+        "Synechococcus",
+        "Synechococcus sp."
+    ],
+    "Synechococcus sp. CB0101": [
+        "Synechococcus",
+        "Synechococcus sp. CB0101"
+    ],
+    "Synechococcus sp. CB0201": [
+        "Synechococcus",
+        "Synechococcus sp. CB0201"
+    ],
+    "Synechococcus sp. CB0202": [
+        "Synechococcus",
+        "Synechococcus sp. CB0202"
+    ],
+    "Synechococcus sp. CB0204": [
+        "Synechococcus",
+        "Synechococcus sp. CB0204"
+    ],
+    "Synechococcus sp. CB0208": [
+        "Synechococcus",
+        "Synechococcus sp. CB0208"
+    ],
+    "Synechococcus sp. LC16": [
+        "Synechococcus",
+        null
+    ],
+    "Synechococcus sp. PCCC-A2c": [
+        "Synechococcus",
+        null
+    ],
+    "Synechococcus sp. SynWH7803": [
+        "Synechococcus",
+        null
+    ],
+    "Synechococcus sp. TCC793": [
+        "Synechococcus",
+        null
+    ],
+    "Synechococcus sp. WH 8012": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8012"
+    ],
+    "Synechococcus sp. WH6501": [
+        "Synechococcus",
+        "Synechococcus sp. WH 6501"
+    ],
+    "Synechococcus sp. WH7803": [
+        "Synechococcus",
+        "Synechococcus sp. WH 7803"
+    ],
+    "Synechococcus sp. WH7805": [
+        "Synechococcus",
+        "Synechococcus sp. WH 7805"
+    ],
+    "Synechococcus sp. WH8017": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8017"
+    ],
+    "Synechococcus sp. WH8101": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8101"
+    ],
+    "Synechococcus sp. WH8102": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8102"
+    ],
+    "Synechococcus sp. WH8109": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8109"
+    ],
+    "Synechococcus str. WH8109": [
+        "Synechococcus",
+        "Synechococcus sp. WH 8109"
+    ],
+    "Tenacibaculum sp.": [
+        "Tenacibaculum",
+        "Tenacibaculum sp."
+    ],
+    "Tetrasphaera jenkinsii": [
+        "Tetrasphaera",
+        "Tetrasphaera jenkinsii"
+    ],
+    "Thalassomonas loyana LMG 22536": [
+        "Thalassomonas",
+        "Thalassotalea loyana"
+    ],
+    "Thermoanaerobacterium saccharolyticum JW/SL-YS485": [
+        "Thermoanaerobacterium",
+        "Thermoanaerobacterium saccharolyticum"
+    ],
+    "Thermobifida fusca NTU22": [
+        "Thermobifida",
+        "Thermobifida fusca"
+    ],
+    "Thermus thermophilus": [
+        "Thermus",
+        "Thermus thermophilus"
+    ],
+    "Thermus thermophilus HB27": [
+        "Thermus",
+        "Thermus thermophilus"
+    ],
+    "Thermus thermophilus HB8": [
+        "Thermus",
+        "Thermus thermophilus"
+    ],
+    "Thermus thermophilus TZ2": [
+        "Thermus",
+        "Thermus thermophilus"
+    ],
+    "Thiobacimonas profunda JLT2016": [
+        "Salipiger",
+        "Salipiger profundus"
+    ],
+    "Tsukamurella inchonensis BEN701": [
+        "Tsukamurella",
+        "Tsukamurella inchonensis"
+    ],
+    "Tsukamurella inchonensis strain BEN701": [
+        "Tsukamurella",
+        "Tsukamurella inchonensis"
+    ],
+    "Tsukamurella paurometabola": [
+        "Tsukamurella",
+        "Tsukamurella paurometabola"
+    ],
+    "Tsukamurella paurometabola strain CON55": [
+        "Tsukamurella",
+        "Tsukamurella paurometabola"
+    ],
+    "UV-induced Cronobacter sakazakii ES15": [
+        "Cronobacter",
+        "Cronobacter sakazakii"
+    ],
+    "Vibrio Parahaemolyticus": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio alginolyticus": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus ATCC 17749": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus E06333": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus IME271": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus K04M1": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus K05K4": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus V1": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus Z1210": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio alginolyticus rm-8403": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio algnolyticus strain V1": [
+        "Vibrio",
+        "Vibrio alginolyticus"
+    ],
+    "Vibrio anguillarum": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum A023": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum BA35": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum PF4": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum T265": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum strain BA35": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio anguillarum strain Kefalonia": [
+        "Vibrio",
+        "Vibrio anguillarum"
+    ],
+    "Vibrio cholerae": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae 1051": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae 18362": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae 18363": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae 2095": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae AR196157": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae B33": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae CH32": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae ElTor": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae IB4122": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae IB4755": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae KMN002": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae N16961": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O1 Classic E8021": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O1 El Tor Inaba": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O1 El Tor strain 919T": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O1 biovar El Tor 15500": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O1 biovar El Tor strain VC106": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139 serogroup strain ICDC-4470": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139 strain AI4450": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139 strain BO4": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139 strain MDO14": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O139 strain ND1": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae O395": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae V212-1": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae biovar El Tor 9961": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae biovar El Tor R-13169": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae str. 10E09PW02": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio cholerae str. 17449": [
+        "Vibrio",
+        "Vibrio cholerae"
+    ],
+    "Vibrio coralliilyticus": [
+        "Vibrio",
+        "Vibrio coralliilyticus"
+    ],
+    "Vibrio coralliilyticus strain P1 LMG23696": [
+        "Vibrio",
+        "Vibrio coralliilyticus"
+    ],
+    "Vibrio corallilyticus": [
+        "Vibrio",
+        "Vibrio coralliilyticus"
+    ],
+    "Vibrio harveyi": [
+        "Vibrio",
+        "Vibrio harveyi"
+    ],
+    "Vibrio harveyi 1114GL": [
+        "Vibrio",
+        "Vibrio harveyi"
+    ],
+    "Vibrio kanaloae": [
+        "Vibrio",
+        "Vibrio kanaloae"
+    ],
+    "Vibrio metschnikovii DSM 29715": [
+        "Vibrio",
+        "Vibrio metschnikovii"
+    ],
+    "Vibrio natriegens HER1138": [
+        "Vibrio",
+        "Vibrio natriegens"
+    ],
+    "Vibrio ordalii VO5": [
+        "Vibrio",
+        "Vibrio ordalii"
+    ],
+    "Vibrio parahaemolyticus": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus ATCC 33844": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus Ex-1": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus O3:K6": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus O4:K68": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus PMC57.5": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus V2": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio parahaemolyticus VP 17802": [
+        "Vibrio",
+        "Vibrio parahaemolyticus"
+    ],
+    "Vibrio sp.": [
+        "Vibrio",
+        "Vibrio sp."
+    ],
+    "Vibrio sp. SWAT-3": [
+        "Vibrio",
+        null
+    ],
+    "Vibrio splendidus": [
+        "Vibrio",
+        "Vibrio splendidus"
+    ],
+    "Vibrio splendidus 12B8": [
+        "Vibrio",
+        "Vibrio splendidus"
+    ],
+    "Vibrio vulnificus": [
+        "Vibrio",
+        "Vibrio vulnificus"
+    ],
+    "Wasabia japonica Matsum": [
+        null,
+        null
+    ],
+    "Weissella cibaria YS61": [
+        "Weissella",
+        "Weissella cibaria"
+    ],
+    "Weissella sp.": [
+        "Weissella",
+        "Weissella sp."
+    ],
+    "Wolbachia endosymbiont wVitA of Nasonia vitripennis": [
+        "Wolbachia",
+        "Wolbachia endosymbiont of Nasonia vitripennis"
+    ],
+    "Xanthomonas arboricola pv. juglandis": [
+        "Xanthomonas",
+        "Xanthomonas arboricola"
+    ],
+    "Xanthomonas arboricola pv. juglandis X-J303": [
+        "Xanthomonas",
+        "Xanthomonas arboricola"
+    ],
+    "Xanthomonas axonopodis pv. citri": [
+        "Xanthomonas",
+        "Xanthomonas citri"
+    ],
+    "Xanthomonas campestris": [
+        "Xanthomonas",
+        "Xanthomonas campestris"
+    ],
+    "Xanthomonas campestris pv. campestris": [
+        "Xanthomonas",
+        "Xanthomonas campestris"
+    ],
+    "Xanthomonas campestris pv. pelargonii": [
+        "Xanthomonas",
+        "Xanthomonas campestris"
+    ],
+    "Xanthomonas campestris pv. vesicatora ATCC35937": [
+        "Xanthomonas",
+        "Xanthomonas campestris"
+    ],
+    "Xanthomonas citri": [
+        "Xanthomonas",
+        "Xanthomonas citri"
+    ],
+    "Xanthomonas fragariae": [
+        "Xanthomonas",
+        "Xanthomonas fragariae"
+    ],
+    "Xanthomonas oryzae": [
+        "Xanthomonas",
+        "Xanthomonas oryzae"
+    ],
+    "Xanthomonas oryzae ATCC 35933": [
+        "Xanthomonas",
+        "Xanthomonas oryzae"
+    ],
+    "Xanthomonas oryzae pv. oryzae": [
+        "Xanthomonas",
+        "Xanthomonas oryzae"
+    ],
+    "Xanthomonas oryzae pv. oryzicola": [
+        "Xanthomonas",
+        "Xanthomonas oryzae"
+    ],
+    "Xanthomonas sp.": [
+        "Xanthomonas",
+        "Xanthomonas sp."
+    ],
+    "Xanthomonas vesicatoria": [
+        "Xanthomonas",
+        "Xanthomonas vesicatoria"
+    ],
+    "Xylella fastidiosa": [
+        "Xylella",
+        "Xylella fastidiosa"
+    ],
+    "Yersinia enterocolitica": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica (type O:3)": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica 6471/76-c serotype 4/O:3": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica 6471/76-c serotype O:3": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica serotype O:3": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica serotype O:3 strain 6471/76": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia enterocolitica serotype O:9 strain Ruokola/71": [
+        "Yersinia",
+        "Yersinia enterocolitica"
+    ],
+    "Yersinia pestis": [
+        "Yersinia",
+        "Yersinia pestis"
+    ],
+    "Yersinia pestis A1122": [
+        "Yersinia",
+        "Yersinia pestis"
+    ],
+    "alpha proteobacterium JL001": [
+        null,
+        null
+    ],
+    "alphaproteobacteria": [
+        null,
+        null
+    ],
+    "avian pathogenic Escherichia coli and genetically engineered Escherichia coli B and K strain": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "brucella abortus 141": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "brucella abortus S19": [
+        "Brucella",
+        "Brucella abortus"
+    ],
+    "candidate division TM7 DolZOral124_TM7_55_12": [
+        null,
+        null
+    ],
+    "carbapenem-resistant Acinetobacter baumannii": [
+        "Acinetobacter",
+        "Acinetobacter baumannii"
+    ],
+    "carbapenem-resistant Pseudomonas aeruginosa YMC11/07/P54": [
+        "Pseudomonas",
+        "Pseudomonas aeruginosa"
+    ],
+    "frog": [
+        null,
+        null
+    ],
+    "group C Streptococci": [
+        "Streptococcus",
+        null
+    ],
+    "methicillin-resistant Staphylococcus aureus YMC/09/04/R1988": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "methicillin-resistant Staphylococcus aureus spa type t223": [
+        "Staphylococcus",
+        "Staphylococcus aureus"
+    ],
+    "mycobacterium smegmatis mc2 155": [
+        "Mycolicibacterium",
+        "Mycolicibacterium smegmatis"
+    ],
+    "pathenogenic Salmonella bacterium": [
+        "Salmonella",
+        null
+    ],
+    "pig": [
+        null,
+        null
+    ],
+    "shiga toxin-producing Escherichia coli": [
+        "Escherichia",
+        "Escherichia coli"
+    ],
+    "wVitA Wolbachia of Nasonia vitripennis": [
+        "Wolbachia",
+        "Wolbachia endosymbiont of Nasonia vitripennis"
+    ],
+    "water buffalo": [
+        null,
+        null
+    ]
+}
