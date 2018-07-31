@@ -1,5 +1,3 @@
-include: "./rules.snake"
-
 SCRIPT_DIR = # TODO: example '/data/projects/kimona/pheri_preprocessing'
 DATA_DIR =   # TODO: example '/data/projects/kimona/data_18-01-01'
 
@@ -44,3 +42,5 @@ rule run:
             cluster_method=CLUSTER_METHODS,
             type=TYPE,
             spec=HOSTS.split(',')),
+
+include: './rules.snake'
