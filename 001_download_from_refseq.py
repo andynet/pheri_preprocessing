@@ -12,8 +12,7 @@ import sys
 def safe_get_qualifier(feature, key, default_value='NO_DATA'):
     try:
         return ';'.join(feature.qualifiers[key])
-    except KeyError as e:
-        # print(e)
+    except KeyError:
         return default_value
 
 
@@ -21,24 +20,17 @@ if len(sys.argv) != 2:
     print('Usage:', sys.argv[0], '<dir>')
     exit()
 
-genomes_output_file = '{}/001_ncbi.genomes.fasta'.format(sys.argv[1])
-genomes_conversion_file = '{}/001_ncbi.genomes.conversion'.format(sys.argv[1])
+genomes_output_file = '{}/001_viralzone.genomes.fasta'.format(sys.argv[1])
+genomes_conversion_file = '{}/001_viralzone.genomes.conversion'.format(sys.argv[1])
 genomes_output = open(genomes_output_file, 'w')
 genomes_conversion = open(genomes_conversion_file, 'w')
 
-genes_output_file = '{}/001_ncbi.genes.fasta'.format(sys.argv[1])
-genes_conversion_file = '{}/001_ncbi.genes.conversion'.format(sys.argv[1])
-genes_output = open(genes_output_file, 'w')
-genes_conversion = open(genes_conversion_file, 'w')
-
-# query = 'phage[Title] AND (complete genome[Title] OR complete sequence[Title]) AND (viruses[filter] ' \
-#         'AND biomol_genomic[PROP] AND ("10000"[SLEN] : "100000000"[SLEN]))'
-
 query = '''
         (phage[Title] OR bacteriophage[Title]) 
-        AND (complete sequence[Title] OR complete genome[Title]) 
-        AND (viruses[filter] AND biomol_genomic[PROP] AND ddbj_embl_genbank[filter])
+        AND complete genome[Title] AND viruses[filter] 
+        AND biomol_genomic[PROP] AND refseq[filter]
         '''
+
 Entrez.email = 'andrejbalaz001@gmail.com'
 
 handle = Entrez.esearch(db="nucleotide", term=query, idtype='acc', retmax=100000, usehistory='y')
@@ -48,8 +40,8 @@ handle.close()
 webenv = record["WebEnv"]
 query_key = record["QueryKey"]
 batch = 100
-genome_num = 0
-gene_num = 0
+genome_num = 1000000
+gene_num = 10000000
 
 i = 0
 while i < len(record['IdList']):
@@ -116,26 +108,7 @@ while i < len(record['IdList']):
 
                 genomes_conversion.write('{}\t{}\t{}\t{}\t{}\n'.format(fasta_id, gb.id, organism, host, lab_host))
 
-            if feature.type == 'CDS':
-
-                gene_id = 'gene{:0>8}'.format(gene_num)
-                gene_num += 1
-
-                gene_seq = safe_get_qualifier(feature, 'translation')
-
-                genes_output.write('>' + gene_id + '\n')
-                genes_output.write(gene_seq + '\n')
-
-                protein_id = safe_get_qualifier(feature, 'protein_id')
-                product = safe_get_qualifier(feature, 'product')
-                note = safe_get_qualifier(feature, 'note')
-
-                genes_conversion.write('{}\t{}\t{}\t{}\t{}\t{}\n'.format(gene_id, fasta_id, protein_id,
-                                                                         feature.location, product, note))
-
     i += batch
 
 genomes_output.close()
 genomes_conversion.close()
-genes_output.close()
-genes_conversion.close()

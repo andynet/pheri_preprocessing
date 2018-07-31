@@ -5,8 +5,8 @@ DATA_DIR =   # TODO: example '/data/projects/kimona/data_18-01-01'
 
 # semi-constants
 THREADS = 12
-DATABASES = ['ncbi', 'viralzone', 'phagesdb']
-SUFFIXES = ['genomes.fasta', 'genomes.conversion', 'genes.fasta', 'genes.conversion']
+DATABASES = ['genbank', 'refseq', 'phagesdb']
+SUFFIXES = ['genomes.fasta', 'genomes.conversion']
 VARIANCE_THRESHOLD = 0.01
 
 # if HOSTS = '' , TRAIN_NUM should be bigger than 1
