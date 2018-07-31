@@ -44,9 +44,11 @@ rule count_hosts:
   output:
     '{data_dir}/004_hosts.tsv',
     '{data_dir}/004_genera.tsv',
-    '{data_dir}/004_genera.counts'
+    '{data_dir}/004_genera.counts',
+    '{data_dir}/004_genera_of_interest'
   params:
-    script_dir=SCRIPT_DIR
+    script_dir=SCRIPT_DIR,
+
   shell:
     '''
     {params.script_dir}/004_get_hosts.py -i {input[0]}                                   \
@@ -55,36 +57,26 @@ rule count_hosts:
 
     less {output[0]} | cut -f1,2 | sort | uniq > {output[1]}
     less {output[1]} | cur -f1 | sort | uniq -c | sort -nr > {output[2]}
+    less {output[2]} | grep -v "no_host" | head -n 50 | tr -s " " | cut -f3 -d " " > {output[3]}
     '''
 
 rule split_dataset:
   input:
-    '{data_dir}/003_deduplicated.genomes.conversion',
     '{data_dir}/003_deduplicated.genomes.fasta',
-    '{data_dir}/005_annotated.genes.conversion',
-    '{data_dir}/005_annotated.genes.fasta',
-    '{data_dir}/004_hosts',
-    '{data_dir}/004_hosts.counts'
+    '{data_dir}/004_genera.tsv',
+    '{data_dir}/004_genera_of_interest'
   output:
-    expand('{{data_dir}}/006_{set_name}.{suffix}', set_name=['train', 'test', 'other'], suffix=SUFFIXES)
+    expand('{{data_dir}}/005_{set_name}.fna', set_name=['train', 'test', 'other'])
   params:
     script_dir=SCRIPT_DIR,
-    train_percentage=TRAIN_PERCENTAGE,
-    train_num=TRAIN_NUM,
-    hosts=HOSTS
   shell:
     '''
-    if [ {params.hosts} = "" ]; then
-        HOSTS=$(grep -v no_host {input[5]} | head -n {params.train_num} | tr -s " " | cut -f3 -d " " | tr "\n" ",")
-        HOSTS=${{HOSTS::-1}}
-    else
-        HOSTS={params.hosts}
-    fi
-
-    {params.script_dir}/006_split_train_test_other.py {input[2]} {input[3]} {input[0]} {input[1]} {input[4]} \
-                                                      ${{HOSTS}} {params.train_percentage}
+    {params.script_dir}/005_split_train_test_other.py -f {input[0]}           \
+                                                      -g {input[1]}           \
+                                                      -l {input[2]}
     '''
 
+# TODO:
 rule annotate:
   input:
     '{data_dir}/003_deduplicated.genomes.fasta'
@@ -113,7 +105,7 @@ rule extract_genes:
     prefix='{data_dir}/005_annotated'
   shell:
     '''
-    {params.script_dir}/005_extract_prokka_genes.py {input[0]}                \
+    {params.script_dir}/006_extract_prokka_genes.py {input[0]}                \
                                                     {params.prefix}
     '''
 
@@ -385,7 +377,7 @@ rule get_genes:
             --prefix {wildcards.phage}                                                            \
             {input[0]}
 
-    {params.script_dir}/005_extract_prokka_genes.py {params.classify_dir}/{wildcards.phage}.gbk   \
+    {params.script_dir}/006_extract_prokka_genes.py {params.classify_dir}/{wildcards.phage}.gbk   \
                                                     {params.prefix}
     '''
 
