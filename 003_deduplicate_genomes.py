@@ -7,17 +7,15 @@ from Bio import SeqIO
 from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 
-if len(sys.argv) != 5:
-    print('Usage:', sys.argv[0], '<genomes.fasta> <genomes.conversion> <genes.conversion> <dir>')
+if len(sys.argv) != 4:
+    print('Usage:', sys.argv[0], '<genomes.fasta> <genomes.conversion> <dir>')
     exit()
 
 deduplicated_genomes_file = '{}/003_deduplicated.genomes.fasta'.format(sys.argv[4])
 deduplicated_genomes_conversion_file = '{}/003_deduplicated.genomes.conversion'.format(sys.argv[4])
-deduplicated_genes_conversion_file = '{}/003_deduplicated.genes.conversion'.format(sys.argv[4])
 
 deduplicated_genomes = open(deduplicated_genomes_file, 'w')
 shutil.copy(sys.argv[2], deduplicated_genomes_conversion_file)
-shutil.copy(sys.argv[3], deduplicated_genes_conversion_file)
 
 genomes = list(SeqIO.parse(sys.argv[1], 'fasta'))
 genomes.sort(key=lambda genome: genome.seq)
@@ -34,9 +32,6 @@ for genome in genomes:
         current_description = min(current_description, genome.description)
         # rewrite genomes conversion
         command = 'sed -i s/{}/{}/ {}'.format(genome.description, current_description, deduplicated_genomes_conversion_file)
-        subprocess.call(command, shell=True)
-        # rewrite genes conversion
-        command = 'sed -i s/{}/{}/ {}'.format(genome.description, current_description, deduplicated_genes_conversion_file)
         subprocess.call(command, shell=True)
     else:
         deduplicated_genomes.write('>' + current_description + '\n')

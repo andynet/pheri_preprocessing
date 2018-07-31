@@ -16,32 +16,26 @@ rule merge:
   input:
     expand('{{data_dir}}/001_{database}.{suffix}', database=DATABASES, suffix=SUFFIXES)
   output:
-    '{data_dir}/002_merged.genes.conversion',
-    '{data_dir}/002_merged.genes.fasta',
     '{data_dir}/002_merged.genomes.conversion',
     '{data_dir}/002_merged.genomes.fasta'
   shell:
     '''
-    cat {wildcards.data_dir}/001_*.genes.conversion   > {output[0]}
-    cat {wildcards.data_dir}/001_*.genes.fasta        > {output[1]}
     cat {wildcards.data_dir}/001_*.genomes.conversion > {output[2]}
     cat {wildcards.data_dir}/001_*.genomes.fasta      > {output[3]}
     '''
 
 rule eliminate_duplicates:
   input:
-    '{data_dir}/002_merged.genes.conversion',
     '{data_dir}/002_merged.genomes.conversion',
     '{data_dir}/002_merged.genomes.fasta'
   output:
-    '{data_dir}/003_deduplicated.genes.conversion',
     '{data_dir}/003_deduplicated.genomes.conversion',
     '{data_dir}/003_deduplicated.genomes.fasta'
   params:
     script_dir=SCRIPT_DIR
   shell:
     '''
-    {params.script_dir}/003_deduplicate_genomes.py {input[2]} {input[1]} {input[2]} {wildcards.data_dir}
+    {params.script_dir}/003_deduplicate_genomes.py {input[1]} {input[0]} {wildcards.data_dir}
     '''
 
 rule count_hosts:
