@@ -76,6 +76,23 @@ rule split_dataset:
                                                       -l {input[2]}
     '''
 
+rule split_fasta:
+  input:
+    '{data_dir}/005_{set_name}.fna',
+  output:
+    '{data_dir}/006_split_{set_name}_completed'
+  params:
+    script_dir=SCRIPT_DIR,
+    split_dir='{data_dir}/006_split_{set_name}'
+  shell:
+    '''
+    mkdir -p {params.split_dir}
+
+    {params.script_dir}/006_split_fasta.py -i {input[0]} -o {params.split_dir}
+
+    touch {output[0]}
+    '''
+
 rule annotate:
   input:
     '{data_dir}/005_train.fna'
@@ -91,6 +108,7 @@ rule annotate:
             --outdir {wildcards.data_dir}/004_PROKKA                          \
             --prefix genomes                                                  \
             --noanno                                                          \
+            --locustag gene                                                   \
             {input[0]}
     '''
 
