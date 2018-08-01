@@ -43,4 +43,4 @@ rule run:
             type=TYPE,
             spec=HOSTS.split(',')),
 
-include: './rules.snake'
+include: '{}/rules.snake'.format(SCRIPT_DIR)

@@ -76,10 +76,9 @@ rule split_dataset:
                                                       -l {input[2]}
     '''
 
-# TODO:
 rule annotate:
   input:
-    '{data_dir}/003_deduplicated.genomes.fasta'
+    '{data_dir}/005_train.fna'
   output:
     '{data_dir}/004_PROKKA/genomes.gbk'
   threads:
@@ -91,9 +90,11 @@ rule annotate:
             --kingdom Viruses                                                 \
             --outdir {wildcards.data_dir}/004_PROKKA                          \
             --prefix genomes                                                  \
+            --noanno                                                          \
             {input[0]}
     '''
 
+# TODO:
 rule extract_genes:
   input:
     '{data_dir}/004_PROKKA/genomes.gbk'
