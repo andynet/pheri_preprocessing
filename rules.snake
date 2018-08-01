@@ -99,7 +99,7 @@ rule annotate:
   output:
     '{data_dir}/007_{set_name}_genes.faa'
   params:
-    prokka_dir='{data_dir}/007_prokka'
+    prokka_dir='{data_dir}/007_prokka',
     split_dir='{data_dir}/006_split_{set_name}'
   shell:
     '''
@@ -107,7 +107,7 @@ rule annotate:
 
     for FILE in $(ls {params.split_dir}); do
 
-        NAME=${FILE%%.*}
+        NAME=${{FILE%%.*}}
 
         prokka \
                 --kingdom Viruses                                                 \
@@ -118,7 +118,7 @@ rule annotate:
                 {input[0]}
     done;
 
-    cat {params.prokka_dir}/*.faa > {wildcards.data_dir}/007_{set_name}_genes.faa
+    cat {params.prokka_dir}/*.faa > {output[0]}
     '''
 
 # TODO:
