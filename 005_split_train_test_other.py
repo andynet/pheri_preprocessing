@@ -36,8 +36,8 @@ for category in genera:
     tmp_train_set = set(sample(tmp_set, floor(args.ratio * len(tmp_set))))
     tmp_test_set = tmp_set - tmp_train_set
 
-    train_set.union(tmp_train_set)
-    test_set.union(tmp_test_set)
+    train_set = train_set | tmp_train_set       # union
+    test_set = test_set | tmp_test_set          # union
 
 print('Train set: {}\nTest set: {}\n'.format(len(train_set), len(test_set)))
 
