@@ -12,5 +12,5 @@ fasta = list(SeqIO.parse(args.fasta, 'fasta'))
 
 for record in fasta:    # type: SeqRecord
 
-    with open('{}/{}'.format(args.output_dir, record.id), 'w') as f:
+    with open('{}/{}.fna'.format(args.output_dir, record.id), 'w') as f:
         f.write('>{}\n{}\n'.format(record.id, record.seq))

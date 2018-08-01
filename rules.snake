@@ -95,21 +95,30 @@ rule split_fasta:
 
 rule annotate:
   input:
-    '{data_dir}/005_train.fna'
+    '{data_dir}/006_split_{set_name}_completed'
   output:
-    '{data_dir}/004_PROKKA/genomes.gbk'
-  threads:
-    THREADS
+    '{data_dir}/007_{set_name}_genes.faa'
+  params:
+    prokka_dir='{data_dir}/007_prokka'
+    split_dir='{data_dir}/006_split_{set_name}'
   shell:
     '''
-    prokka  --force                                                           \
-            --cpus {threads}                                                  \
-            --kingdom Viruses                                                 \
-            --outdir {wildcards.data_dir}/004_PROKKA                          \
-            --prefix genomes                                                  \
-            --noanno                                                          \
-            --locustag gene                                                   \
-            {input[0]}
+    mkdir -p {params.prokka_dir}
+
+    for FILE in $(ls {params.split_dir}); do
+
+        NAME=${FILE%%.*}
+
+        prokka \
+                --kingdom Viruses                                                 \
+                --outdir {params.prokka_dir}                                      \
+                --prefix ${{NAME}}                                                \
+                --noanno                                                          \
+                --locustag ${{NAME}}_                                             \
+                {input[0]}
+    done;
+
+    cat {params.prokka_dir}/*.faa > {wildcards.data_dir}/007_{set_name}_genes.faa
     '''
 
 # TODO:
