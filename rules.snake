@@ -109,13 +109,13 @@ rule annotate:
 
         NAME=${{FILE%%.*}}
 
-        prokka \
-                --kingdom Viruses                                                 \
-                --outdir {params.prokka_dir}                                      \
-                --prefix ${{NAME}}                                                \
-                --noanno                                                          \
-                --locustag ${{NAME}}_                                             \
-                {params.split_dir}/${{FILE}}
+        prokka --force                                                         \
+               --kingdom Viruses                                               \
+               --outdir {params.prokka_dir}                                    \
+               --prefix ${{NAME}}                                              \
+               --noanno                                                        \
+               --locustag ${{NAME}}                                            \
+               {params.split_dir}/${{FILE}}
     done;
 
     cat {params.prokka_dir}/*.faa > {output[0]}
