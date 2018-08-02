@@ -115,7 +115,7 @@ rule annotate:
                 --prefix ${{NAME}}                                                \
                 --noanno                                                          \
                 --locustag ${{NAME}}_                                             \
-                {input[0]}
+                ${{FILE}}
     done;
 
     cat {params.prokka_dir}/*.faa > {output[0]}
