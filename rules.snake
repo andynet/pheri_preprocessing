@@ -121,28 +121,12 @@ rule annotate:
     cat {params.prokka_dir}/*.faa > {output[0]}
     '''
 
-# TODO:
-rule extract_genes:
-  input:
-    '{data_dir}/004_PROKKA/genomes.gbk'
-  output:
-    '{data_dir}/005_annotated.genes.conversion',
-    '{data_dir}/005_annotated.genes.fasta'
-  params:
-    script_dir=SCRIPT_DIR,
-    prefix='{data_dir}/005_annotated'
-  shell:
-    '''
-    {params.script_dir}/006_extract_prokka_genes.py {input[0]}                \
-                                                    {params.prefix}
-    '''
-
 rule cd_hit:
   input:
-    '{data_dir}/006_train.genes.fasta'
+    '{data_dir}/007_{set_name}_genes.faa'
   output:
-    '{data_dir}/007_train.cd-hit.genes.fasta',
-    '{data_dir}/007_train.cd-hit.genes.fasta.clstr'
+    '{data_dir}/008_{set_name}.cd-hit.genes.faa',
+    '{data_dir}/008_{set_name}.cd-hit.genes.faa.clstr'
   threads:
     THREADS
   shell:
@@ -152,53 +136,57 @@ rule cd_hit:
 
 rule crocoblast:
   input:
-    '{data_dir}/007_train.cd-hit.genes.fasta'
+    '{data_dir}/008_train.cd-hit.genes.faa'
   output:
-    '{data_dir}/008_crocoblast.abc'
+    '{data_dir}/009_crocoblast.abc'
   params:
-    script_dir=SCRIPT_DIR
+    script_dir=SCRIPT_DIR,
+    croco_dir='{data_dir}/009_crocoblast',
+    croco_db_dir='{data_dir}/009_crocoblast_database',
+    db_name='008_train.cd-hit.genes.faa'
   threads:
     THREADS
   shell:
     '''
-    rm -rf {wildcards.data_dir}/008_crocoblast/ {wildcards.data_dir}/008_crocoblast_database/
-    cp -r  {params.script_dir}/crocoblast/ {wildcards.data_dir}/008_crocoblast/
-    mkdir  {wildcards.data_dir}/008_crocoblast_database
+    rm -rf {params.croco_dir} {params.croco_db_dir}
+    cp -r  {params.script_dir}/crocoblast {params.croco_dir}
+    mkdir  {params.croco_db_dir}
 
-    {wildcards.data_dir}/008_crocoblast/crocoblast  -add_database                       \
-                                                      --sequence_file                   \
-                                                        protein                         \
-                                                        {input[0]}                      \
-                                                        007_train.cd-hit.genes.fasta    \
-                                                        {wildcards.data_dir}/008_crocoblast_database
+    {params.croco_dir}/crocoblast  -add_database                       \
+                                     --sequence_file                   \
+                                       protein                         \
+                                       {input[0]}                      \
+                                       {params.db_name}                \
+                                       {params.croco_db_dir}
 
-    {wildcards.data_dir}/008_crocoblast/crocoblast  -add_to_queue                       \
-                                                      blastp                            \
-                                                      007_train.cd-hit.genes.fasta      \
-                                                      {input[0]}                        \
-                                                      {wildcards.data_dir}              \
-                                                      --blast_options                   \
-                                                        -outfmt 6                       \
-                                                        -max_target_seqs 1000000        \
-                                                        -max_hsps 1
+    {params.croco_dir}/crocoblast  -add_to_queue                       \
+                                     blastp                            \
+                                     {params.db_name}                  \
+                                     {input[0]}                        \
+                                     {wildcards.data_dir}              \
+                                     --blast_options                   \
+                                       -outfmt 6                       \
+                                       -max_target_seqs 1000000        \
+                                       -max_hsps 1
 
-    echo "{wildcards.data_dir}/008_crocoblast/crocoblast -run > /dev/null; touch {wildcards.data_dir}/008_finished"   \
+    echo "{params.croco_dir}/crocoblast -run > /dev/null; \
+          touch {wildcards.data_dir}/009_finished"        \
     | qsub -l thr={threads} -cwd -N crocoblast
 
-    while [ ! -f {wildcards.data_dir}/008_finished ]; do
+    while [ ! -f {wildcards.data_dir}/009_finished ]; do
         sleep 20m
     done
 
-    mv {wildcards.data_dir}/CrocoBLAST_1 {wildcards.data_dir}/008_crocoblast_output
-    cut -f 1,2,11 {wildcards.data_dir}/008_crocoblast_output/complete_assembled_output > {output[0]}
+    mv {wildcards.data_dir}/CrocoBLAST_1 {wildcards.data_dir}/009_crocoblast_output
+    cut -f 1,2,11 {wildcards.data_dir}/009_crocoblast_output/complete_assembled_output > {output[0]}
     '''
 
 rule blast_to_needle:
   input:
-    '{data_dir}/008_crocoblast.abc',
-    '{data_dir}/006_train.genes.fasta'
+    '{data_dir}/009_crocoblast.abc',
+    '{data_dir}/007_train_genes.faa'
   output:
-    '{data_dir}/008_crocoblast.needle.abc'
+    '{data_dir}/009_crocoblast.needle.abc'
   params:
     script_dir=SCRIPT_DIR,
     data_dir=DATA_DIR
@@ -228,9 +216,9 @@ rule blast_to_needle:
 
 rule cluster_spectral:
   input:
-    '{data_dir}/008_crocoblast.abc'
+    '{data_dir}/009_crocoblast.abc'
   output:
-    '{data_dir}/009_spectral.clusters'
+    '{data_dir}/010_spectral.clusters'
   shell:
     '''
     clusterx -t blast {input[0]} -o {output[0]}
@@ -238,9 +226,9 @@ rule cluster_spectral:
 
 rule cluster_mcl:
   input:
-    '{data_dir}/008_crocoblast.abc'
+    '{data_dir}/009_crocoblast.abc'
   output:
-    '{data_dir}/009_mcl.clusters'
+    '{data_dir}/010_mcl.clusters'
   shell:
     '''
     clusterx -m mcl -p inflation=1.2 {input[0]} -o {output[0]}
@@ -248,9 +236,9 @@ rule cluster_mcl:
 
 rule cluster_needle_mcl:
   input:
-    '{data_dir}/008_crocoblast.needle.abc'
+    '{data_dir}/009_crocoblast.needle.abc'
   output:
-    '{data_dir}/009_needle_mcl.clusters'
+    '{data_dir}/010_needle_mcl.clusters'
   shell:
     '''
     clusterx -m mcl -p inflation=1.2,dont_transform=True {input[0]} -o {output[0]}
@@ -258,10 +246,10 @@ rule cluster_needle_mcl:
 
 rule create_cluster_file:
   input:
-    '{data_dir}/009_{cluster_method}.clusters',
-    '{data_dir}/007_train.cd-hit.genes.fasta.clstr'
+    '{data_dir}/010_{cluster_method}.clusters',
+    '{data_dir}/008_train.cd-hit.genes.faa.clstr'
   output:
-    '{data_dir}/010_{cluster_method}.tsv'
+    '{data_dir}/011_{cluster_method}.tsv'
   params:
     script_dir=SCRIPT_DIR
   shell:
@@ -269,6 +257,7 @@ rule create_cluster_file:
     {params.script_dir}/010_create_cluster_file.py {input[0]} {input[1]} {output[0]}
     '''
 
+# checkpoint
 rule create_matrix:
   input:
     '{data_dir}/010_{cluster_method}.tsv',
