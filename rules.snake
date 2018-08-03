@@ -244,49 +244,20 @@ rule cluster_needle_mcl:
     clusterx -m mcl -p inflation=1.2,dont_transform=True {input[0]} -o {output[0]}
     '''
 
-rule create_cluster_file:
+rule create_matrix:
   input:
     '{data_dir}/010_{cluster_method}.clusters',
-    '{data_dir}/008_train.cd-hit.genes.faa.clstr'
+    '{data_dir}/005_train.fna'
   output:
-    '{data_dir}/011_{cluster_method}.tsv'
+    '{data_dir}/012_matrix.{cluster_method}.raw.tsv'
   params:
-    script_dir=SCRIPT_DIR
+    script_dir=SCRIPT_DIR,
   shell:
     '''
-    {params.script_dir}/010_create_cluster_file.py {input[0]} {input[1]} {output[0]}
+    {params.script_dir}/012_create_matrix.py -c {input[0]} -f {input[1]} -o {output[0]}
     '''
 
 # checkpoint
-rule create_matrix:
-  input:
-    '{data_dir}/010_{cluster_method}.tsv',
-    '{data_dir}/006_train.genes.conversion',
-    '{data_dir}/006_train.genomes.fasta'
-  output:
-    '{data_dir}/011_matrix.{cluster_method}.raw.tsv'
-  params:
-    script_dir=SCRIPT_DIR,
-    genomes_list='{data_dir}/011_train.genomes.list'
-  shadow:
-    'shallow'
-  shell:
-    '''
-    grep "^>" {input[2]} | tr -d ">" | sort > {params.genomes_list}
-
-    {params.script_dir}/009_parallelize_matrix_creation_from_mcl.py {input[1]}                    \
-                                                                    {input[0]}                    \
-                                                                    {params.genomes_list}
-
-    while [ $(ls {wildcards.data_dir}/matrix.part* | wc -l) -ne 11 ]; do
-        sleep 1m
-    done
-
-    sleep 1m
-    cat {wildcards.data_dir}/matrix.part* > {output[0]}
-    rm {wildcards.data_dir}/matrix.part*
-    '''
-
 rule annotate_cluster:
   input:
     '{data_dir}/005_annotated.genes.fasta',
