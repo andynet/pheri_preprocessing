@@ -257,6 +257,19 @@ rule create_matrix:
     {params.script_dir}/012_create_matrix.py -c {input[0]} -f {input[1]} -o {output[0]}
     '''
 
+rule select_features:
+  input:
+    '{data_dir}/012_matrix.{cluster_method}.raw.tsv'
+  output:
+    '{data_dir}/012_matrix.{cluster_method}.fs.tsv'
+  params:
+    script_dir=SCRIPT_DIR,
+    variance_threshold=VARIANCE_THRESHOLD
+  shell:
+    '''
+    {params.script_dir}/011_feature_selection.py {input[0]} {output[0]} {params.variance_threshold}
+    '''
+
 # checkpoint
 rule annotate_cluster:
   input:
@@ -289,19 +302,6 @@ rule annotate_cluster:
     cut -f 12,13 {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv     \
         | sort | uniq -c | sort -nr                                                               \
         > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.result
-    '''
-
-rule select_features:
-  input:
-    '{data_dir}/011_matrix.{cluster_method}.raw.tsv'
-  output:
-    '{data_dir}/011_matrix.{cluster_method}.fs.tsv'
-  params:
-    script_dir=SCRIPT_DIR,
-    variance_threshold=VARIANCE_THRESHOLD
-  shell:
-    '''
-    {params.script_dir}/011_feature_selection.py {input[0]} {output[0]} {params.variance_threshold}
     '''
 
 rule split_matrix:
