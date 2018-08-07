@@ -271,24 +271,23 @@ rule select_features:
     '''
 
 # checkpoint
-def get_spec(file):
-    return ['Mycobacter']
-
 rule create_models:
   input:
     '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
     '{data_dir}/004_genera.tsv',
+    '{data_dir}/004_genera_of_interest'
   output:
-    expand([
-            '{{data_dir}}/013_model.{{cluster_method}}.{{type}}.{spec}.pkl',
-            '{{data_dir}}/013_tree.{{cluster_method}}.{{type}}.{spec}.pdf'
-            ], spec=get_spec('{data_dir}/004_genera_of_interest')
+    '{data_dir}/013_models.{cluster_method}.{type}.completed'
   params:
+    models_dir={data_dir}/013_models.{cluster_method}.{type},
     script_dir=SCRIPT_DIR
   shell:
     '''
+    mkdir -p {params.models_dir}
+
+    {params.script_dir}/013_create_models.py -m {input[0]} -g {input[1]} -i {input[2]}
+
     touch {output[0]}
-    touch {output[1]}
     '''
 
 rule split_matrix:
