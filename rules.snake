@@ -271,37 +271,24 @@ rule select_features:
     '''
 
 # checkpoint
-rule annotate_cluster:
+def get_spec(file):
+    return ['Mycobacter']
+
+rule create_models:
   input:
-    '{data_dir}/005_annotated.genes.fasta',
-    '{data_dir}/010_{cluster_method}.tsv',
+    '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
+    '{data_dir}/004_genera.tsv',
   output:
-    '{data_dir}/011_{cluster_method}_cluster_annotations/Cluster_{i}.result'
+    expand([
+            '{{data_dir}}/013_model.{{cluster_method}}.{{type}}.{spec}.pkl',
+            '{{data_dir}}/013_tree.{{cluster_method}}.{{type}}.{spec}.pdf'
+            ], spec=get_spec('{data_dir}/004_genera_of_interest')
   params:
-    script_dir=SCRIPT_DIR,
-    cluster_annotation_dir='{data_dir}/011_{cluster_method}_cluster_annotations'
+    script_dir=SCRIPT_DIR
   shell:
     '''
-    mkdir -p {params.cluster_annotation_dir}
-
-    {params.script_dir}/011_prepare_cluster_for_interpro.py {input[0]}                            \
-                                                            {input[1]}                            \
-                                                            {wildcards.i}                         \
-                                                            > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta
-
-    cd-hit  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta                  \
-            -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit           \
-            -c 1 -d 0
-            # -T 16
-
-    interproscan  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit     \
-                  -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv \
-                  -f tsv -goterms
-                  # -cpu 16
-
-    cut -f 12,13 {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv     \
-        | sort | uniq -c | sort -nr                                                               \
-        > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.result
+    touch {output[0]}
+    touch {output[1]}
     '''
 
 rule split_matrix:
@@ -417,4 +404,37 @@ rule stats:
     cat {input.results} > {output[0]}
 
     {params.script_dir}/015_calculate_stats.py {input.hosts} {output[0]} {output[1]}
+    '''
+
+rule annotate_cluster:
+  input:
+    '{data_dir}/005_annotated.genes.fasta',
+    '{data_dir}/010_{cluster_method}.tsv',
+  output:
+    '{data_dir}/011_{cluster_method}_cluster_annotations/Cluster_{i}.result'
+  params:
+    script_dir=SCRIPT_DIR,
+    cluster_annotation_dir='{data_dir}/011_{cluster_method}_cluster_annotations'
+  shell:
+    '''
+    mkdir -p {params.cluster_annotation_dir}
+
+    {params.script_dir}/011_prepare_cluster_for_interpro.py {input[0]}                            \
+                                                            {input[1]}                            \
+                                                            {wildcards.i}                         \
+                                                            > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta
+
+    cd-hit  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta                  \
+            -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit           \
+            -c 1 -d 0
+            # -T 16
+
+    interproscan  -i {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit     \
+                  -o {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv \
+                  -f tsv -goterms
+                  # -cpu 16
+
+    cut -f 12,13 {params.cluster_annotation_dir}/Cluster_{wildcards.i}.genes.fasta.cd-hit.tsv     \
+        | sort | uniq -c | sort -nr                                                               \
+        > {params.cluster_annotation_dir}/Cluster_{wildcards.i}.result
     '''
