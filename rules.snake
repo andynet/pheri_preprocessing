@@ -290,7 +290,6 @@ rule create_models:
     '''
 
 # evaluation of models
-
 rule get_genes:
   input:
     '{data_dir}/006_split_{set_name}/{phage}.fna',
@@ -334,18 +333,22 @@ rule classify:
     '{data_dir}/006_split_{set_name}/{phage}.genes.blast',
     '{data_dir}/010_{cluster_method}.clusters',
     '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
-    '{data_dir}/013_model.{cluster_method}.{type}.{spec}.pkl',
+    '{data_dir}/013_models.{cluster_method}.{type}/013_{spec}.model.{cluster_method}.{type}.pkl'
   output:
-    '{data_dir}/006_split_{set_name}/{phage}.{cluster_method}.{type}.{spec}.vector',
-    '{data_dir}/006_split_{set_name}/{phage}.{cluster_method}.{type}.{spec}.result',
+    '{data_dir}/014_classification_{set_name}/{phage}.{cluster_method}.{type}.{spec}.vector',
+    '{data_dir}/014_classification_{set_name}/{phage}.{cluster_method}.{type}.{spec}.result',
   params:
     script_dir=SCRIPT_DIR,
+    class_dir='{data_dir}/014_classification_{set_name}'
   shell:
     '''
+    mkdir -p {params.class_dir}
+
     {params.script_dir}/014_create_vector.py  {input[0]} {input[1]} {input[2]} {input[3]}         \
                                               {output[0]} {output[1]}
     '''
 
+# checkpoint
 rule stats:
   input:
     results=expand('{{data_dir}}/014_classification/{phage}.{{cluster_method}}.{{type}}.{{spec}}.result',

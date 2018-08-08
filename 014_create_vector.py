@@ -19,10 +19,11 @@ genes_to_cluster = dict()
 with open(sys.argv[2]) as f:
     lines = f.readlines()
 
-for i, line in enumerate(lines):
-    members = line.strip().split('\t')
-    for member in members:
-        genes_to_cluster[member] = i
+for i in range(2, len(lines)-1):
+    member = lines[i].split()[0]
+    cluster = int(lines[i].split()[1].strip())
+
+    genes_to_cluster[member] = cluster
 
 # calculate vector
 vector = []
