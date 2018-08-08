@@ -292,21 +292,21 @@ rule create_models:
 # evaluation of models
 rule get_genes:
   input:
-    '{data_dir}/006_split_{set_name}/{phage}.fna',
     '{data_dir}/006_split_{set_name}_completed'
   output:
     '{data_dir}/006_split_{set_name}/{phage}.genes.fasta'
   params:
     script_dir=SCRIPT_DIR,
     classify_dir='{data_dir}/014_classification',
-    prefix='{data_dir}/014_classification/{phage}'
+    prefix='{data_dir}/014_classification/{phage}',
+    phage='{data_dir}/006_split_{set_name}/{phage}.fna',
   shell:
     '''
     prokka  --force                                                                               \
             --kingdom Viruses                                                                     \
             --outdir {params.classify_dir}                                                        \
             --prefix {wildcards.phage}                                                            \
-            {input[0]}
+            {params.phage}
 
     {params.script_dir}/006_extract_prokka_genes.py {params.classify_dir}/{wildcards.phage}.gbk   \
                                                     {params.prefix}
