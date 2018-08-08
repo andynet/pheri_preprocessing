@@ -270,7 +270,6 @@ rule select_features:
     {params.script_dir}/011_feature_selection.py {input[0]} {output[0]} {params.variance_threshold}
     '''
 
-# checkpoint
 rule create_models:
   input:
     '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
@@ -290,55 +289,14 @@ rule create_models:
     touch {output[0]}
     '''
 
-rule split_matrix:
-  input:
-    '{data_dir}/011_matrix.{cluster_method}.{type}.tsv',
-    '{data_dir}/004_hosts'
-  output:
-    expand([
-            '{{data_dir}}/012_matrix.{{cluster_method}}.{{type}}.{host}.tsv',
-            '{{data_dir}}/012_hosts.{{cluster_method}}.{{type}}.{host}'
-            ], host=HOSTS.split(',')),
-  params:
-    script_dir=SCRIPT_DIR,
-    hosts=HOSTS
-  shell:
-    '''
-    {params.script_dir}/012_split_matrix.py {input[0]} {input[1]} {params.hosts}
-    '''
-
-rule create_model:
-  input:
-    expand('{{data_dir}}/012_matrix.{{cluster_method}}.{{type}}.{host}.tsv', host=HOSTS.split(',')),
-  output:
-    '{data_dir}/013_model.{cluster_method}.{type}.{spec}.pkl',
-    '{data_dir}/013_tree.{cluster_method}.{type}.{spec}.pdf'
-  params:
-    script_dir=SCRIPT_DIR
-  shell:
-    '''
-    {params.script_dir}/013_decision_tree.py {wildcards.spec} {input}
-    '''
-
-rule split_test_fasta:
-  input:
-    '{data_dir}/006_test.genomes.fasta'
-  output:
-    '{data_dir}/014_classification/{phage}.genomes.fasta'
-  params:
-    classify_dir='{data_dir}/014_classification',
-  shell:
-    '''
-    mkdir -p {params.classify_dir}
-
-    grep -A 1 {wildcards.phage} {input[0]} > {output[0]}
-    '''
+# evaluation of models
 
 rule get_genes:
   input:
-    '{data_dir}/014_classification/{phage}.genomes.fasta'
+    '{data_dir}/006_split_{set_name}/{phage}.fna',
+    '{data_dir}/006_split_{set_name}_completed'
   output:
-    '{data_dir}/014_classification/{phage}.genes.fasta'
+    '{data_dir}/006_split_{set_name}/{phage}.genes.fasta'
   params:
     script_dir=SCRIPT_DIR,
     classify_dir='{data_dir}/014_classification',
@@ -357,9 +315,9 @@ rule get_genes:
 
 rule blast_genes:
   input:
-    '{data_dir}/014_classification/{phage}.genes.fasta',
+    '{data_dir}/006_split_{set_name}/{phage}.genes.fasta',
   output:
-    '{data_dir}/014_classification/{phage}.genes.blast',
+    '{data_dir}/006_split_{set_name}/{phage}.genes.blast',
   params:
     database='{data_dir}/008_crocoblast_database/007_train.cd-hit.genes.fasta',
   shell:
@@ -373,13 +331,13 @@ rule blast_genes:
 
 rule classify:
   input:
-    '{data_dir}/014_classification/{phage}.genes.blast',
-    '{data_dir}/010_{cluster_method}.tsv',
-    '{data_dir}/011_matrix.{cluster_method}.{type}.tsv',
+    '{data_dir}/006_split_{set_name}/{phage}.genes.blast',
+    '{data_dir}/010_{cluster_method}.clusters',
+    '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
     '{data_dir}/013_model.{cluster_method}.{type}.{spec}.pkl',
   output:
-    '{data_dir}/014_classification/{phage}.{cluster_method}.{type}.{spec}.vector',
-    '{data_dir}/014_classification/{phage}.{cluster_method}.{type}.{spec}.result',
+    '{data_dir}/006_split_{set_name}/{phage}.{cluster_method}.{type}.{spec}.vector',
+    '{data_dir}/006_split_{set_name}/{phage}.{cluster_method}.{type}.{spec}.result',
   params:
     script_dir=SCRIPT_DIR,
   shell:
@@ -405,6 +363,7 @@ rule stats:
     {params.script_dir}/015_calculate_stats.py {input.hosts} {output[0]} {output[1]}
     '''
 
+# gene cluster annotation
 rule annotate_cluster:
   input:
     '{data_dir}/005_annotated.genes.fasta',
