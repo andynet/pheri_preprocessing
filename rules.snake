@@ -278,8 +278,8 @@ rule create_models:
   output:
     '{data_dir}/013_models.{cluster_method}.{type}.completed'
   params:
-    models_dir={data_dir}/013_models.{cluster_method}.{type},
-    script_dir=SCRIPT_DIR
+    script_dir=SCRIPT_DIR,
+    models_dir='{data_dir}/013_models.{cluster_method}.{type}',
   shell:
     '''
     mkdir -p {params.models_dir}
