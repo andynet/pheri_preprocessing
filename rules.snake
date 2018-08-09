@@ -66,7 +66,7 @@ rule split_dataset:
     '{data_dir}/004_genera.tsv',
     '{data_dir}/004_genera_of_interest'
   output:
-    expand('{{data_dir}}/005_{set_name}.fna', set_name=['train', 'test', 'other'])
+    expand('{{data_dir}}/005_{setname}.fna', setname=['train', 'test', 'other'])
   params:
     script_dir=SCRIPT_DIR,
   shell:
@@ -78,12 +78,12 @@ rule split_dataset:
 
 rule split_fasta:
   input:
-    '{data_dir}/005_{set_name}.fna'
+    '{data_dir}/005_{setname}.fna'
   output:
-    '{data_dir}/006_split_{set_name}_completed'
+    '{data_dir}/006_split_{setname}_completed'
   params:
     script_dir=SCRIPT_DIR,
-    split_dir='{data_dir}/006_split_{set_name}'
+    split_dir='{data_dir}/006_split_{setname}'
   shell:
     '''
     mkdir -p {params.split_dir}
@@ -95,12 +95,12 @@ rule split_fasta:
 
 rule annotate:
   input:
-    '{data_dir}/006_split_{set_name}_completed'
+    '{data_dir}/006_split_{setname}_completed'
   output:
-    '{data_dir}/007_{set_name}_genes.faa'
+    '{data_dir}/007_{setname}_genes.faa'
   params:
-    prokka_dir='{data_dir}/007_prokka_{set_name}',
-    split_dir='{data_dir}/006_split_{set_name}'
+    prokka_dir='{data_dir}/007_prokka_{setname}',
+    split_dir='{data_dir}/006_split_{setname}'
   shell:
     '''
     mkdir -p {params.prokka_dir}
@@ -123,10 +123,10 @@ rule annotate:
 
 rule cd_hit:
   input:
-    '{data_dir}/007_{set_name}_genes.faa'
+    '{data_dir}/007_{setname}_genes.faa'
   output:
-    '{data_dir}/008_{set_name}.cd-hit.genes.faa',
-    '{data_dir}/008_{set_name}.cd-hit.genes.faa.clstr'
+    '{data_dir}/008_{setname}.cd-hit.genes.faa',
+    '{data_dir}/008_{setname}.cd-hit.genes.faa.clstr'
   threads:
     THREADS
   shell:
@@ -246,10 +246,10 @@ rule cluster_needle_mcl:
 
 rule create_matrix:
   input:
-    '{data_dir}/010_{cluster_method}.clusters',
+    '{data_dir}/010_{clustermethod}.clusters',
     '{data_dir}/005_train.fna'
   output:
-    '{data_dir}/012_matrix.{cluster_method}.raw.tsv'
+    '{data_dir}/012_matrix.{clustermethod}.raw.tsv'
   params:
     script_dir=SCRIPT_DIR,
   shell:
@@ -259,9 +259,9 @@ rule create_matrix:
 
 rule select_features:
   input:
-    '{data_dir}/012_matrix.{cluster_method}.raw.tsv'
+    '{data_dir}/012_matrix.{clustermethod}.raw.tsv'
   output:
-    '{data_dir}/012_matrix.{cluster_method}.fs.tsv'
+    '{data_dir}/012_matrix.{clustermethod}.fs.tsv'
   params:
     script_dir=SCRIPT_DIR,
     variance_threshold=VARIANCE_THRESHOLD
@@ -272,14 +272,14 @@ rule select_features:
 
 rule create_models:
   input:
-    '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
+    '{data_dir}/012_matrix.{clustermethod}.{type}.tsv',
     '{data_dir}/004_genera.tsv',
     '{data_dir}/004_genera_of_interest'
   output:
-    '{data_dir}/013_models.{cluster_method}.{type}.completed'
+    '{data_dir}/013_models.{clustermethod}.{type}.completed'
   params:
     script_dir=SCRIPT_DIR,
-    models_dir='{data_dir}/013_models.{cluster_method}.{type}',
+    models_dir='{data_dir}/013_models.{clustermethod}.{type}',
   shell:
     '''
     mkdir -p {params.models_dir}
@@ -292,13 +292,13 @@ rule create_models:
 # evaluation of models
 rule blast_genes:
   input:
-    '{data_dir}/007_{set_name}_genes.faa',
+    '{data_dir}/007_{setname}_genes.faa',
   output:
-    '{data_dir}/008_blast_{set_name}/{phage}.blast',
+    '{data_dir}/008_blast_{setname}/{phage}.blast',
   params:
     database='{data_dir}/009_crocoblast_database/008_train.cd-hit.genes.faa',
-    blast_dir='{data_dir}/008_blast_{set_name}',
-    genes='{data_dir}/007_prokka_{set_name}/{phage}.faa'
+    blast_dir='{data_dir}/008_blast_{setname}',
+    genes='{data_dir}/007_prokka_{setname}/{phage}.faa'
   shell:
     '''
     mkdir -p {params.blast_dir}
@@ -312,16 +312,16 @@ rule blast_genes:
 
 rule classify:
   input:
-    '{data_dir}/008_blast_{set_name}/{phage}.blast',
-    '{data_dir}/010_{cluster_method}.clusters',
-    '{data_dir}/012_matrix.{cluster_method}.{type}.tsv',
-    '{data_dir}/013_models.{cluster_method}.{type}/013_{spec}.model.{cluster_method}.{type}.pkl'
+    '{data_dir}/008_blast_{setname}/{phage}.blast',
+    '{data_dir}/010_{clustermethod}.clusters',
+    '{data_dir}/012_matrix.{clustermethod}.{type}.tsv',
+    '{data_dir}/013_models.{clustermethod}.{type}/013_{spec}.model.{clustermethod}.{type}.pkl'
   output:
-    '{data_dir}/014_classification_{set_name}/{phage}.{cluster_method}.{type}.{spec}.vector',
-    '{data_dir}/014_classification_{set_name}/{phage}.{cluster_method}.{type}.{spec}.result',
+    '{data_dir}/014_classification_{setname}/{phage}.{clustermethod}.{type}.{spec}.vector',
+    '{data_dir}/014_classification_{setname}/{phage}.{clustermethod}.{type}.{spec}.result',
   params:
     script_dir=SCRIPT_DIR,
-    class_dir='{data_dir}/014_classification_{set_name}'
+    class_dir='{data_dir}/014_classification_{setname}'
   shell:
     '''
     mkdir -p {params.class_dir}
@@ -333,12 +333,12 @@ rule classify:
 # checkpoint
 rule stats:
   input:
-    results=expand('{{data_dir}}/014_classification_{{set_name}}/{phage}.{{cluster_method}}.{{type}}.{{spec}}.result',
+    results=expand('{{data_dir}}/014_classification_{{setname}}/{phage}.{{clustermethod}}.{{type}}.{{spec}}.result',
                     phage=PHAGES.split(',')),
     hosts='{data_dir}/004_genera.tsv'
   output:
-    '{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.results',
-    '{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.stats'
+    '{data_dir}/015_{setname}_{clustermethod}.{type}.{spec}.results',
+    '{data_dir}/015_{setname}_{clustermethod}.{type}.{spec}.stats'
   params:
     script_dir=SCRIPT_DIR,
   shell:
@@ -352,12 +352,12 @@ rule stats:
 rule annotate_cluster:
   input:
     '{data_dir}/005_annotated.genes.fasta',
-    '{data_dir}/010_{cluster_method}.tsv',
+    '{data_dir}/010_{clustermethod}.tsv',
   output:
-    '{data_dir}/011_{cluster_method}_cluster_annotations/Cluster_{i}.result'
+    '{data_dir}/011_{clustermethod}_cluster_annotations/Cluster_{i}.result'
   params:
     script_dir=SCRIPT_DIR,
-    cluster_annotation_dir='{data_dir}/011_{cluster_method}_cluster_annotations'
+    cluster_annotation_dir='{data_dir}/011_{clustermethod}_cluster_annotations'
   shell:
     '''
     mkdir -p {params.cluster_annotation_dir}
