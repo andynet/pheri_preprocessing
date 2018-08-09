@@ -37,8 +37,9 @@ rule run:
             cluster_method=CLUSTER_METHODS,
             i=CLUSTERS),
 
-    expand('{data_dir}/015_{cluster_method}.{type}.{spec}.stats',
+    expand('{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.stats',
             data_dir=DATA_DIR,
+            set_name='test',
             cluster_method=CLUSTER_METHODS,
             type=TYPE,
             spec=HOSTS.split(',')),

@@ -13,7 +13,7 @@ with open(sys.argv[1]) as f:
 phage_to_host = dict()
 for line in lines:
     phage = line.split()[0]
-    hosts = line.split()[1]
+    hosts = line.split()[1].strip()
 
     phage_to_host[phage] = hosts
 

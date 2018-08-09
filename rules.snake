@@ -335,7 +335,7 @@ rule stats:
   input:
     results=expand('{{data_dir}}/014_classification_{{set_name}}/{phage}.{{cluster_method}}.{{type}}.{{spec}}.result',
                     phage=PHAGES.split(',')),
-    hosts='{data_dir}/004_hosts'
+    hosts='{data_dir}/004_genera.tsv'
   output:
     '{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.results',
     '{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.stats'
