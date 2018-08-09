@@ -20,8 +20,8 @@ rule merge:
     '{data_dir}/002_merged.genomes.fasta'
   shell:
     '''
-    cat {wildcards.data_dir}/001_*.genomes.conversion > {output[2]}
-    cat {wildcards.data_dir}/001_*.genomes.fasta      > {output[3]}
+    cat {wildcards.data_dir}/001_*.genomes.conversion > {output[0]}
+    cat {wildcards.data_dir}/001_*.genomes.fasta      > {output[1]}
     '''
 
 rule eliminate_duplicates:
