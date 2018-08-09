@@ -99,7 +99,7 @@ rule annotate:
   output:
     '{data_dir}/007_{set_name}_genes.faa'
   params:
-    prokka_dir='{data_dir}/007_prokka',
+    prokka_dir='{data_dir}/007_prokka_{set_name}',
     split_dir='{data_dir}/006_split_{set_name}'
   shell:
     '''
@@ -290,37 +290,19 @@ rule create_models:
     '''
 
 # evaluation of models
-rule get_genes:
-  input:
-    '{data_dir}/006_split_{set_name}_completed'
-  output:
-    '{data_dir}/006_split_{set_name}/{phage}.genes.fasta'
-  params:
-    script_dir=SCRIPT_DIR,
-    classify_dir='{data_dir}/014_classification',
-    prefix='{data_dir}/014_classification/{phage}',
-    phage='{data_dir}/006_split_{set_name}/{phage}.fna',
-  shell:
-    '''
-    prokka  --force                                                                               \
-            --kingdom Viruses                                                                     \
-            --outdir {params.classify_dir}                                                        \
-            --prefix {wildcards.phage}                                                            \
-            {params.phage}
-
-    {params.script_dir}/006_extract_prokka_genes.py {params.classify_dir}/{wildcards.phage}.gbk   \
-                                                    {params.prefix}
-    '''
-
 rule blast_genes:
   input:
-    '{data_dir}/006_split_{set_name}/{phage}.genes.fasta',
+    '{data_dir}/007_prokka_{set_name}/{phage}.faa',
+    '{data_dir}/007_{set_name}_genes.faa',
   output:
-    '{data_dir}/006_split_{set_name}/{phage}.genes.blast',
+    '{data_dir}/008_blast_{set_name}/{phage}.blast',
   params:
     database='{data_dir}/008_crocoblast_database/007_train.cd-hit.genes.fasta',
+    blast_dir='{data_dir}/008_blast_{set_name}'
   shell:
     '''
+    mkdir -p {params.blast_dir}
+
     blastp  -query {input[0]}                                                                     \
             -db {params.database}                                                                 \
             -out {output[0]}                                                                      \
