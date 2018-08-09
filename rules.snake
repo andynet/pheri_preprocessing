@@ -303,7 +303,7 @@ rule blast_genes:
     '''
     mkdir -p {params.blast_dir}
 
-    blastp  -query {input[0]}                                                                     \
+    blastp  -query {params.genes}                                                                     \
             -db {params.database}                                                                 \
             -out {output[0]}                                                                      \
             -outfmt "6 qseqid sseqid score pident evalue"                                         \
