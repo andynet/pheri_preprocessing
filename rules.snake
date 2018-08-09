@@ -292,13 +292,13 @@ rule create_models:
 # evaluation of models
 rule blast_genes:
   input:
-    '{data_dir}/007_prokka_{set_name}/{phage}.faa',
     '{data_dir}/007_{set_name}_genes.faa',
   output:
     '{data_dir}/008_blast_{set_name}/{phage}.blast',
   params:
     database='{data_dir}/008_crocoblast_database/007_train.cd-hit.genes.fasta',
-    blast_dir='{data_dir}/008_blast_{set_name}'
+    blast_dir='{data_dir}/008_blast_{set_name}',
+    genes='{data_dir}/007_prokka_{set_name}/{phage}.faa'
   shell:
     '''
     mkdir -p {params.blast_dir}
