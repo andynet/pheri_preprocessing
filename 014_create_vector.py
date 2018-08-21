@@ -12,7 +12,7 @@ if len(sys.argv) != 7:
     exit()
 
 phage_name = os.path.basename(os.path.abspath(sys.argv[1])).split('.')[0]
-spec = os.path.basename(os.path.abspath(sys.argv[4])).split('.')[-2]
+spec = os.path.basename(os.path.abspath(sys.argv[4])).split('.')[0].split('_')[-1]
 
 # create dictionary
 genes_to_cluster = dict()

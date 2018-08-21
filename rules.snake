@@ -310,6 +310,7 @@ rule blast_genes:
             -max_target_seqs 1
     '''
 
+# checkpoint
 rule classify:
   input:
     '{data_dir}/008_blast_{setname}/{phage}.blast',
@@ -330,7 +331,6 @@ rule classify:
                                               {output[0]} {output[1]}
     '''
 
-# checkpoint
 rule stats:
   input:
     results=expand('{{data_dir}}/014_classification_{{setname}}/{phage}.{{clustermethod}}.{{type}}.{{spec}}.result',
