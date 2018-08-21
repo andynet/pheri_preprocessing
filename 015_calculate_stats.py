@@ -19,6 +19,7 @@ for line in lines:
         phage_to_host[phage] = [host]
     else:
         phage_to_host[phage].append(host)
+        phage_to_host[phage].sort()
 
 # edit results and get stats
 with open(sys.argv[2]) as f:
