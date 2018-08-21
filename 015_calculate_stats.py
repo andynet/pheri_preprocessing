@@ -15,7 +15,7 @@ for line in lines:
     phage = line.split()[0]
     host = line.split()[1].strip()
 
-    if not phage_to_host[phage]:
+    if phage not in phage_to_host:
         phage_to_host[phage] = [host]
     else:
         phage_to_host[phage].append(host)
