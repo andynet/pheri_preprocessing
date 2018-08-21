@@ -21,7 +21,7 @@ with open(sys.argv[2]) as f:
 
 for i in range(2, len(lines)-1):
     member = lines[i].split()[0]
-    cluster = int(lines[i].split()[1].strip())
+    cluster = 'cluster{:0>5}'.format(int(lines[i].split()[1].strip()))
 
     genes_to_cluster[member] = cluster
 
@@ -34,8 +34,6 @@ for line in lines:
     target_gene = line.split()[1]
     vector.append(genes_to_cluster[target_gene])
 
-# remove duplicates and sort
-vector = list(set(vector))
 vector.sort()
 
 # # write vector to file
@@ -50,8 +48,8 @@ matrix = pd.read_csv(sys.argv[3], sep='\t', header=0, index_col=0)
 new_record = pd.DataFrame(np.zeros((1, matrix.shape[1]), dtype=int), columns=matrix.columns, index=[phage_name])
 
 for item in vector:
-    if 'Cluster_{}'.format(item) in new_record.columns:
-        new_record.set_value(phage_name, 'Cluster_{}'.format(item), 1)
+    if item in new_record.columns:
+        new_record.at[phage_name, item] += 1
     else:
         print('Cluster_{} is not in the matrix.'.format(item))
 
