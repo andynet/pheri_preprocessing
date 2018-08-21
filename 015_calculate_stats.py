@@ -13,9 +13,12 @@ with open(sys.argv[1]) as f:
 phage_to_host = dict()
 for line in lines:
     phage = line.split()[0]
-    hosts = line.split()[1].strip()
+    host = line.split()[1].strip()
 
-    phage_to_host[phage] = hosts
+    if not phage_to_host[phage]:
+        phage_to_host[phage] = [host]
+    else:
+        phage_to_host[phage].append(host)
 
 # edit results and get stats
 with open(sys.argv[2]) as f:

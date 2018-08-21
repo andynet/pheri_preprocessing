@@ -51,7 +51,7 @@ for item in vector:
     if item in new_record.columns:
         new_record.at[phage_name, item] += 1
     else:
-        print('Cluster_{} is not in the matrix.'.format(item))
+        print('{} is not in the matrix.'.format(item))
 
 new_record.to_csv(sys.argv[5], sep='\t')
 
