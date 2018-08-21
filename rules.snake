@@ -341,9 +341,10 @@ rule stats:
     '{data_dir}/015_{setname}_{clustermethod}.{type}.{spec}.stats'
   params:
     script_dir=SCRIPT_DIR,
+    results_dir='{data_dir}/014_classification_{setname}'
   shell:
     '''
-    cat {input.results} > {output[0]}
+    cat {params.results_dir}/*.{wildcards.spec}.result > {output[0]}
 
     {params.script_dir}/015_calculate_stats.py {input.hosts} {output[0]} {output[1]}
     '''
