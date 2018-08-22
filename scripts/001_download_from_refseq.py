@@ -20,8 +20,8 @@ if len(sys.argv) != 2:
     print('Usage:', sys.argv[0], '<dir>')
     exit()
 
-genomes_output_file = '{}/001_viralzone.genomes.fasta'.format(sys.argv[1])
-genomes_conversion_file = '{}/001_viralzone.genomes.conversion'.format(sys.argv[1])
+genomes_output_file = '{}/001_refseq.genomes.fasta'.format(sys.argv[1])
+genomes_conversion_file = '{}/001_refseq.genomes.conversion'.format(sys.argv[1])
 genomes_output = open(genomes_output_file, 'w')
 genomes_conversion = open(genomes_conversion_file, 'w')
 

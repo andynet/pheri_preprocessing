@@ -1,6 +1,7 @@
 rule download:
   output:
-    expand('{{data_dir}}/001_{{database}}.{suffix}', suffix=SUFFIXES)
+    '{data_dir}/001_{database}.genomes.fasta',
+    '{data_dir}/001_{database}.genomes.conversion'
   params:
     script_dir=SCRIPT_DIR
   log:
