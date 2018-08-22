@@ -11,8 +11,8 @@ if len(sys.argv) != 4:
     print('Usage:', sys.argv[0], '<genomes.fasta> <genomes.conversion> <dir>')
     exit()
 
-deduplicated_genomes_file = '{}/003_deduplicated.genomes.fasta'.format(sys.argv[4])
-deduplicated_genomes_conversion_file = '{}/003_deduplicated.genomes.conversion'.format(sys.argv[4])
+deduplicated_genomes_file = '{}/003_deduplicated.genomes.fasta'.format(sys.argv[3])
+deduplicated_genomes_conversion_file = '{}/003_deduplicated.genomes.conversion'.format(sys.argv[3])
 
 deduplicated_genomes = open(deduplicated_genomes_file, 'w')
 shutil.copy(sys.argv[2], deduplicated_genomes_conversion_file)

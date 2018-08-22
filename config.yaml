@@ -1,2 +1,15 @@
 main_dir: '/data/projects/kimona/pheri_preprocessing_v1.2'
 data_dir: '/data/projects/kimona/data_18-08-22_v1.2'
+
+databases: ['genbank', 'refseq', 'phagesdb']
+cluster_method: ['needle_mcl', 'mcl', 'spectral']
+type: ['fs', 'raw']
+
+threads: 16
+variance_threshold: 0.01
+
+# if list is empty, hosts are determined automatically based on train_num
+# else variable hosts is used
+hosts: []
+train_num: 50
+train_perc: 0.8
