@@ -1,3 +1,4 @@
+# retrieve_data
 rule download:
   output:
     expand('{{data_dir}}/001_{{database}}.{suffix}', suffix=SUFFIXES)
@@ -60,6 +61,7 @@ rule count_hosts:
     less {output[2]} | grep -v "None" | head -n 50 | tr -s " " | cut -f3 -d " " > {output[3]}
     '''
 
+# analyse_data
 rule split_dataset:
   input:
     '{data_dir}/003_deduplicated.genomes.fasta',
@@ -244,9 +246,22 @@ rule cluster_needle_mcl:
     clusterx -m mcl -p inflation=1.2,dont_transform=True {input[0]} -o {output[0]}
     '''
 
-rule create_matrix:
+rule reverse_cd_hit:
   input:
     '{data_dir}/010_{clustermethod}.clusters',
+    '{data_dir}/008_{setname}.cd-hit.genes.faa.clstr'
+  output:
+    '{data_dir}/010_{setname}.{clustermethod}.clusters',
+  params:
+    script_dir=SCRIPT_DIR,
+  shell:
+    '''
+    {params.script_dir}/010_expand_cd-hit.py {input[0]} {input[1]} {output[0]}
+    '''
+
+rule create_matrix:
+  input:
+    '{data_dir}/010_train.{clustermethod}.clusters',
     '{data_dir}/005_train.fna'
   output:
     '{data_dir}/012_matrix.{clustermethod}.raw.tsv'
@@ -289,7 +304,7 @@ rule create_models:
     touch {output[0]}
     '''
 
-# evaluation of models
+# evaluate_models
 rule blast_genes:
   input:
     '{data_dir}/007_{setname}_genes.faa',
@@ -310,11 +325,10 @@ rule blast_genes:
             -max_target_seqs 1
     '''
 
-# checkpoint
 rule classify:
   input:
     '{data_dir}/008_blast_{setname}/{phage}.blast',
-    '{data_dir}/010_{clustermethod}.clusters',
+    '{data_dir}/010_train.{clustermethod}.clusters',
     '{data_dir}/012_matrix.{clustermethod}.{type}.tsv',
     '{data_dir}/013_models.{clustermethod}.{type}/013_{spec}.model.{clustermethod}.{type}.pkl'
   output:
@@ -349,11 +363,11 @@ rule stats:
     {params.script_dir}/015_calculate_stats.py {input.hosts} {output[0]} {output[1]}
     '''
 
-# gene cluster annotation
+# annotate_clusters
 rule annotate_cluster:
   input:
-    '{data_dir}/005_annotated.genes.fasta',
-    '{data_dir}/010_{clustermethod}.tsv',
+    '{data_dir}/007_train_genes.faa',
+    '{data_dir}/010_train.{clustermethod}.clusters',
   output:
     '{data_dir}/011_{clustermethod}_cluster_annotations/Cluster_{i}.result'
   params:
