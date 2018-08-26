@@ -23,6 +23,9 @@ for i in range(2, len(lines)-1):
 
 genes = list(SeqIO.parse(args.fasta, 'fasta'))
 for gene in genes:
-    if gene_to_cluster[gene.id] == args.cluster_id:
-        print('>{}'.format(gene.id))
-        print('{}'.format(gene.seq))
+    try:
+        if gene_to_cluster[gene.id] == args.cluster_id:
+            print('>{}'.format(gene.id))
+            print('{}'.format(gene.seq))
+    except KeyError:
+        pass
