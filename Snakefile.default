@@ -1,12 +1,10 @@
-include: "./rules.snake"
-
 SCRIPT_DIR = # TODO: example '/data/projects/kimona/pheri_preprocessing'
 DATA_DIR =   # TODO: example '/data/projects/kimona/data_18-01-01'
 
 # semi-constants
 THREADS = 12
-DATABASES = ['ncbi', 'viralzone', 'phagesdb']
-SUFFIXES = ['genomes.fasta', 'genomes.conversion', 'genes.fasta', 'genes.conversion']
+DATABASES = ['genbank', 'refseq', 'phagesdb']
+SUFFIXES = ['genomes.fasta', 'genomes.conversion']
 VARIANCE_THRESHOLD = 0.01
 
 # if HOSTS = '' , TRAIN_NUM should be bigger than 1
@@ -39,8 +37,11 @@ rule run:
             cluster_method=CLUSTER_METHODS,
             i=CLUSTERS),
 
-    expand('{data_dir}/015_{cluster_method}.{type}.{spec}.stats',
+    expand('{data_dir}/015_{set_name}_{cluster_method}.{type}.{spec}.stats',
             data_dir=DATA_DIR,
+            set_name='test',
             cluster_method=CLUSTER_METHODS,
             type=TYPE,
             spec=HOSTS.split(',')),
+
+include: '{}/rules.snake'.format(SCRIPT_DIR)

@@ -71,11 +71,6 @@ genomes_conversion_file = '{}/001_phagesdb.genomes.conversion'.format(sys.argv[1
 genomes_output = open(genomes_output_file, 'w')
 genomes_conversion = open(genomes_conversion_file, 'w')
 
-genes_output_file = '{}/001_phagesdb.genes.fasta'.format(sys.argv[1])
-genes_conversion_file = '{}/001_phagesdb.genes.conversion'.format(sys.argv[1])
-genes_output = open(genes_output_file, 'w')
-genes_conversion = open(genes_conversion_file, 'w')
-
 page_num = 1
 genome_num = 2000000
 gene_num = 20000000
@@ -120,37 +115,5 @@ while True:
 
         genomes_conversion.write('{}\t{}\t{}\t{}\t{}\n'.format(fasta_id, accession, name, host, 'NO_DATA'))
 
-        try:
-            page = 'http://phagesdb.org/api/genesbyphage/' + name
-            req = requests.get(page)
-        except ConnectionError as e:
-            print('Could not get genes of {}. Skipping...'.format(name))
-            print(e)
-            continue
-
-        if req.status_code != 200:
-            print('\nPage', page, 'returned error status.', file=sys.stderr)
-            continue
-
-        genes = json.loads(req.text)
-        for gene in genes['results']:
-
-            gene_id = 'gene{:0>8}'.format(gene_num)
-            gene_num += 1
-
-            gene_seq = safe_get_data(gene, 'translation')
-
-            genes_output.write('>' + gene_id + '\n')
-            genes_output.write(gene_seq + '\n')
-
-            protein_id = safe_get_data(gene, 'GeneID')
-            product = safe_get_data(gene, 'Notes')
-            location = get_location(gene)
-
-            genes_conversion.write('{}\t{}\t{}\t{}\t{}\t{}\n'.format(gene_id, fasta_id, protein_id,
-                                                                     location, product, 'NO_DATA'))
-
 genomes_output.close()
 genomes_conversion.close()
-genes_output.close()
-genes_conversion.close()
