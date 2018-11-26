@@ -13,23 +13,28 @@ with open(sys.argv[1]) as f:
 phage_to_host = dict()
 for line in lines:
     phage = line.split()[0]
-    hosts = line.split()[1].strip()
+    host = line.split()[1].strip()
 
-    phage_to_host[phage] = hosts
+    if phage not in phage_to_host:
+        phage_to_host[phage] = [host]
+    else:
+        phage_to_host[phage].append(host)
+        phage_to_host[phage].sort()
 
 # edit results and get stats
 with open(sys.argv[2]) as f:
     lines = f.readlines()
 
-correct = 0
-false_positive = 0
-false_negative = 0
+tp = 0
+tn = 0
+fp = 0
+fn = 0
 
 results_out = []
+spec = lines[0].split()[1]
 
 for line in lines:
     phage = line.split()[0]
-    spec = line.split()[1]
     prediction = int(line.split()[2][1:-1])
     hosts = phage_to_host[phage]
 
@@ -38,24 +43,31 @@ for line in lines:
     else:
         reality = 0
 
-    if prediction == reality:
-        correct += 1
+    if prediction == 1 and reality == 1:
+        tp += 1
+    elif prediction == 1 and reality == 0:
+        fp += 1
+    elif prediction == 0 and reality == 1:
+        fn += 1
+    elif prediction == 0 and reality == 0:
+        tn += 1
     else:
-        if prediction == 1:
-            false_positive += 1
-        if prediction == 0:
-            false_negative += 1
+        print('Warning: values out of possible options')
 
     results_out.append('{}\t{}\t{}\t{}\n'.format(phage, spec, hosts, prediction))
 
 with open(sys.argv[2] + '.ph', 'w') as f:
     f.writelines(results_out)
 
-all_records = correct + false_positive + false_negative
+all_records = tp + tn + fp + fn
+
+accuracy = (tp + tn) / (tp + tn + fp + fn)
+sensitivity = tp / (tp + fn)
+specificity = tn / (tn + fp)
+informedness = sensitivity + specificity - 1    # https://en.wikipedia.org/wiki/Confusion_matrix
 
 with open(sys.argv[3], 'w') as f:
-    f.write('all\tcorrect\tf_pos\tf_neg\tcorrect_p\tf_pos_p\tf_neg_p\n')
-    f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(all_records, correct, false_positive, false_negative,
-                                                  correct/all_records,
-                                                  false_positive/all_records,
-                                                  false_negative/all_records))
+    f.write('model\tall\tt_pos\tt_neg\tf_pos\tf_neg\taccuracy\tsensitivity\tspecificity\tinformedness\n')
+    f.write('{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n'.format(spec, all_records,
+                                                  tp, tn, fp, fn,
+                                                  accuracy, sensitivity, specificity, informedness))

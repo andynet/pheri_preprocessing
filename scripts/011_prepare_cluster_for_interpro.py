@@ -1,20 +1,31 @@
 #!/usr/bin/python3
 
-import sys
+
+import argparse
 from Bio import SeqIO
 
-if len(sys.argv) != 4:
-    print('Usage:', sys.argv[0], '<annotated.genes.fasta> <clusters> <cluster_id>')
-    exit()
-
-with open(sys.argv[2]) as f:
-    clusters = f.readlines()
-
-genes = list(SeqIO.parse(sys.argv[1], 'fasta'))
-cluster_of_interest = sorted(clusters[int(sys.argv[3])].strip().split())
+parser = argparse.ArgumentParser(description='Get genes from cluster')
+parser.add_argument('fasta')
+parser.add_argument('clusters')
+parser.add_argument('cluster_id', type=int)
+args = parser.parse_args()
 
 
-for gene in cluster_of_interest:
-    index = int(gene[5:])
-    print('>{}'.format(genes[index].description))
-    print('{}'.format(genes[index].seq))
+with open(args.clusters) as f:
+    lines = f.readlines()
+
+gene_to_cluster = dict()
+for i in range(2, len(lines)-1):
+    gene = lines[i].split()[0]
+    cluster = int(lines[i].split()[1].strip())
+
+    gene_to_cluster[gene] = cluster
+
+genes = list(SeqIO.parse(args.fasta, 'fasta'))
+for gene in genes:
+    try:
+        if gene_to_cluster[gene.id] == args.cluster_id:
+            print('>{}'.format(gene.id))
+            print('{}'.format(gene.seq))
+    except KeyError:
+        pass
