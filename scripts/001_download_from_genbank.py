@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from http.client import IncompleteRead
 from Bio.SeqRecord import SeqRecord
 from urllib.error import HTTPError
@@ -42,8 +40,9 @@ batch = 100
 genome_num = 0
 gene_num = 0
 
+limit = 50
 i = 0
-while i < len(record['IdList']):
+while i < len(record['IdList']) and i < limit:
 
     print('Downloaded', i, 'sequences.')
     sys.stdout.flush()

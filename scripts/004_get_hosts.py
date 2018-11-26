@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from time import gmtime, strftime, sleep
 import argparse
 import requests

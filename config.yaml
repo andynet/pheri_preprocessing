@@ -1,5 +1,5 @@
-main_dir: '/data/projects/kimona/pheri_preprocessing_v1.2'
-data_dir: '/data/projects/kimona/data_18-08-22_v1.2'
+main_dir: '/home/andrej/Projects/pheri_preprocessing'
+data_dir: '/home/andrej/Projects/pheri_preprocessing_data'
 
 databases: ['genbank', 'refseq', 'phagesdb']
 cluster_method: ['needle_mcl', 'mcl', 'spectral']

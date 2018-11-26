@@ -1,11 +1,8 @@
-#!/usr/bin/python3
-
-from requests.exceptions import ConnectionError
 from Bio import SeqIO
 import requests
 import time
 import json
-import wget
+import wget     # remove wget dependency and uninstall from conda
 import sys
 import os
 
@@ -72,10 +69,12 @@ genomes_output = open(genomes_output_file, 'w')
 genomes_conversion = open(genomes_conversion_file, 'w')
 
 page_num = 1
-genome_num = 2000000
+genome_num = 0
 gene_num = 20000000
 
-while True:
+limit = 50
+
+while True and genome_num < limit:
     page = 'http://phagesdb.org/api/phages/?page=' + str(page_num)
     req = requests.get(page)
 
@@ -97,7 +96,7 @@ while True:
         if genome['fasta_file'] is None:
             continue
 
-        fasta_id = 'phage{:0>7}'.format(genome_num)
+        fasta_id = 'phage{:0>7}'.format(genome_num + 2000000)
         genome_num += 1
 
         try:
